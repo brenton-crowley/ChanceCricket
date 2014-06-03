@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50b" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Batsman" representedClassName="Batsman" syncable="YES">
+        <attribute name="batsmanName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="batsmanRuns" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="batsmanSurname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="deliveries" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Delivery" inverseName="batsman" inverseEntity="Delivery" syncable="YES"/>
+        <relationship name="inning" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Inning" inverseName="batsmen" inverseEntity="Inning" syncable="YES"/>
+        <relationship name="nonStrikeInning" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Inning" inverseName="currentNonStriker" inverseEntity="Inning" syncable="YES"/>
+        <relationship name="strikeInning" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Inning" inverseName="currentStriker" inverseEntity="Inning" syncable="YES"/>
+        <relationship name="wicket" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Wicket" inverseName="batsman" inverseEntity="Wicket" syncable="YES"/>
+    </entity>
+    <entity name="Bowler" representedClassName="Bowler" syncable="YES">
+        <attribute name="bowlerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bowlerSurname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="currentBowlerInning" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Inning" inverseName="currentBowler" inverseEntity="Inning" syncable="YES"/>
+        <relationship name="currentRestingBowlerInning" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Inning" inverseName="currentRestingBowler" inverseEntity="Inning" syncable="YES"/>
+        <relationship name="inning" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Inning" inverseName="bowlers" inverseEntity="Inning" syncable="YES"/>
+        <relationship name="overs" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Over" inverseName="bowler" inverseEntity="Over" syncable="YES"/>
+        <relationship name="wickets" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Wicket" inverseName="bowler" inverseEntity="Wicket" syncable="YES"/>
+    </entity>
+    <entity name="Delivery" representedClassName="Delivery" syncable="YES">
+        <attribute name="deliveryID" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="deliveryName" optional="YES" attributeType="String" defaultValueString="0" syncable="YES"/>
+        <attribute name="deliveryRuns" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="isLegal" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isWicket" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="batsman" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Batsman" inverseName="deliveries" inverseEntity="Batsman" syncable="YES"/>
+        <relationship name="over" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Over" inverseName="deliveries" inverseEntity="Over" syncable="YES"/>
+    </entity>
+    <entity name="Inning" representedClassName="Inning" syncable="YES">
+        <attribute name="battingTeamID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bowlingTeamID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inningID" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="inningRuns" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="batsmen" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Batsman" inverseName="inning" inverseEntity="Batsman" syncable="YES"/>
+        <relationship name="bowlers" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Bowler" inverseName="inning" inverseEntity="Bowler" syncable="YES"/>
+        <relationship name="currentBowler" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Bowler" inverseName="currentBowlerInning" inverseEntity="Bowler" syncable="YES"/>
+        <relationship name="currentNonStriker" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Batsman" inverseName="nonStrikeInning" inverseEntity="Batsman" syncable="YES"/>
+        <relationship name="currentRestingBowler" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Bowler" inverseName="currentRestingBowlerInning" inverseEntity="Bowler" syncable="YES"/>
+        <relationship name="currentStriker" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Batsman" inverseName="strikeInning" inverseEntity="Batsman" syncable="YES"/>
+        <relationship name="match" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Match" inverseName="innings" inverseEntity="Match" syncable="YES"/>
+        <relationship name="overs" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Over" inverseName="inning" inverseEntity="Over" syncable="YES"/>
+        <relationship name="wickets" optional="YES" toMany="YES" maxCount="10" deletionRule="Cascade" ordered="YES" destinationEntity="Wicket" inverseName="inning" inverseEntity="Wicket" syncable="YES"/>
+        <fetchedProperty name="battingTeam" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Team"/>
+        </fetchedProperty>
+        <fetchedProperty name="bowlingTeam" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Team"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="Match" representedClassName="Match" syncable="YES">
+        <attribute name="matchID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="metadata" optional="YES" attributeType="Transformable" valueTransformerName="metadata" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="awayTeam" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="awayMatches" inverseEntity="Team" syncable="YES"/>
+        <relationship name="homeTeam" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="homeMatches" inverseEntity="Team" syncable="YES"/>
+        <relationship name="innings" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Inning" inverseName="match" inverseEntity="Inning" syncable="YES"/>
+        <relationship name="matchSettings" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="MatchSettings" inverseName="match" inverseEntity="MatchSettings" syncable="YES"/>
+        <relationship name="tournamentMatch" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TournamentMatch" inverseName="match" inverseEntity="TournamentMatch" syncable="YES"/>
+    </entity>
+    <entity name="MatchSettings" representedClassName="MatchSettings" isAbstract="YES" syncable="YES">
+        <attribute name="bowlerOverLimit" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="deliveriesPerOver" attributeType="Integer 16" maxValueString="6" defaultValueString="6" syncable="YES"/>
+        <attribute name="inningOverLimit" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="inningsLimit" attributeType="Integer 64" defaultValueString="2" syncable="YES"/>
+        <attribute name="settingsName" attributeType="String" syncable="YES"/>
+        <attribute name="wicketLimit" attributeType="Integer 16" maxValueString="10" defaultValueString="10" syncable="YES"/>
+        <relationship name="match" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Match" inverseName="matchSettings" inverseEntity="Match" syncable="YES"/>
+    </entity>
+    <entity name="MatchSettingsT20" representedClassName="MatchSettingsT20" parentEntity="MatchSettings" syncable="YES"/>
+    <entity name="Over" representedClassName="Over" syncable="YES">
+        <attribute name="overHistory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overID" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="overRuns" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="overWickets" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <relationship name="bowler" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Bowler" inverseName="overs" inverseEntity="Bowler" syncable="YES"/>
+        <relationship name="deliveries" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Delivery" inverseName="over" inverseEntity="Delivery" syncable="YES"/>
+        <relationship name="inning" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Inning" inverseName="overs" inverseEntity="Inning" syncable="YES"/>
+    </entity>
+    <entity name="Player" representedClassName="Player" syncable="YES">
+        <attribute name="playerForename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="playerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerSurname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="team" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="players" inverseEntity="Team" syncable="YES"/>
+    </entity>
+    <entity name="Seed" representedClassName="Seed" syncable="YES">
+        <attribute name="seedID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="seedNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TournamentGroup" inverseName="seeds" inverseEntity="TournamentGroup" syncable="YES"/>
+        <relationship name="tMatchAwaySeed" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TournamentMatch" inverseName="awaySeed" inverseEntity="TournamentMatch" syncable="YES"/>
+        <relationship name="tMatchHomeSeed" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TournamentMatch" inverseName="homeSeed" inverseEntity="TournamentMatch" syncable="YES"/>
+        <relationship name="touramentRound" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TournamentRound" inverseName="seeds" inverseEntity="TournamentRound" syncable="YES"/>
+        <relationship name="tournamentTeam" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TournamentTeam" inverseName="seeds" inverseEntity="TournamentTeam" syncable="YES"/>
+    </entity>
+    <entity name="Team" representedClassName="Team" syncable="YES">
+        <attribute name="primaryHex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="secondaryHex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="teamID" attributeType="String" syncable="YES"/>
+        <attribute name="teamName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamShortName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="awayMatches" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Match" inverseName="awayTeam" inverseEntity="Match" syncable="YES"/>
+        <relationship name="homeMatches" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Match" inverseName="homeTeam" inverseEntity="Match" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Player" inverseName="team" inverseEntity="Player" syncable="YES"/>
+        <relationship name="tournamentTeam" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TournamentTeam" inverseName="team" inverseEntity="TournamentTeam" syncable="YES"/>
+    </entity>
+    <entity name="Tournament" representedClassName="Tournament" syncable="YES">
+        <attribute name="tournamentID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="currentRound" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TournamentRound" inverseName="currentTRound" inverseEntity="TournamentRound" syncable="YES"/>
+        <relationship name="tournamentRounds" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="TournamentRound" inverseName="tournament" inverseEntity="TournamentRound" syncable="YES"/>
+        <relationship name="tournamentTeams" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="TournamentTeam" inverseName="tournament" inverseEntity="TournamentTeam" syncable="YES"/>
+        <relationship name="userTournamentTeam" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TournamentTeam" inverseName="userInTourament" inverseEntity="TournamentTeam" syncable="YES"/>
+    </entity>
+    <entity name="TournamentGroup" representedClassName="TournamentGroup" syncable="YES">
+        <attribute name="groupID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="round" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TournamentRound" inverseName="groups" inverseEntity="TournamentRound" syncable="YES"/>
+        <relationship name="seeds" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Seed" inverseName="group" inverseEntity="Seed" syncable="YES"/>
+    </entity>
+    <entity name="TournamentMatch" representedClassName="TournamentMatch" syncable="YES">
+        <attribute name="matchID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="awaySeed" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Seed" inverseName="tMatchAwaySeed" inverseEntity="Seed" syncable="YES"/>
+        <relationship name="currentRMatch" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TournamentRound" inverseName="currentTournamentMatch" inverseEntity="TournamentRound" syncable="YES"/>
+        <relationship name="homeSeed" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Seed" inverseName="tMatchHomeSeed" inverseEntity="Seed" syncable="YES"/>
+        <relationship name="match" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Match" inverseName="tournamentMatch" inverseEntity="Match" syncable="YES"/>
+        <relationship name="round" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TournamentRound" inverseName="matches" inverseEntity="TournamentRound" syncable="YES"/>
+    </entity>
+    <entity name="TournamentRound" representedClassName="TournamentRound" syncable="YES">
+        <attribute name="matchLossPoints" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="matchTiePoints" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="matchWinPoints" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="tournamentRoundID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="tournamentRoundName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="currentTournamentMatch" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TournamentMatch" inverseName="currentRMatch" inverseEntity="TournamentMatch" syncable="YES"/>
+        <relationship name="currentTRound" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Tournament" inverseName="currentRound" inverseEntity="Tournament" syncable="YES"/>
+        <relationship name="groups" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="TournamentGroup" inverseName="round" inverseEntity="TournamentGroup" syncable="YES"/>
+        <relationship name="matches" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="TournamentMatch" inverseName="round" inverseEntity="TournamentMatch" syncable="YES"/>
+        <relationship name="seeds" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Seed" inverseName="touramentRound" inverseEntity="Seed" syncable="YES"/>
+        <relationship name="tournament" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Tournament" inverseName="tournamentRounds" inverseEntity="Tournament" syncable="YES"/>
+    </entity>
+    <entity name="TournamentTeam" representedClassName="TournamentTeam" syncable="YES">
+        <attribute name="teamID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="seeds" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Seed" inverseName="tournamentTeam" inverseEntity="Seed" syncable="YES"/>
+        <relationship name="team" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="tournamentTeam" inverseEntity="Team" syncable="YES"/>
+        <relationship name="tournament" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Tournament" inverseName="tournamentTeams" inverseEntity="Tournament" syncable="YES"/>
+        <relationship name="userInTourament" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Tournament" inverseName="userTournamentTeam" inverseEntity="Tournament" syncable="YES"/>
+    </entity>
+    <entity name="Wicket" representedClassName="Wicket" syncable="YES">
+        <relationship name="batsman" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Batsman" inverseName="wicket" inverseEntity="Batsman" syncable="YES"/>
+        <relationship name="bowler" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Bowler" inverseName="wickets" inverseEntity="Bowler" syncable="YES"/>
+        <relationship name="inning" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Inning" inverseName="wickets" inverseEntity="Inning" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Batsman" positionX="268" positionY="216" width="128" height="165"/>
+        <element name="Bowler" positionX="63" positionY="387" width="128" height="150"/>
+        <element name="Delivery" positionX="403" positionY="66" width="128" height="150"/>
+        <element name="Inning" positionX="72" positionY="63" width="128" height="240"/>
+        <element name="Match" positionX="-92" positionY="69" width="128" height="165"/>
+        <element name="MatchSettings" positionX="-297" positionY="279" width="128" height="150"/>
+        <element name="MatchSettingsT20" positionX="-297" positionY="459" width="128" height="45"/>
+        <element name="Over" positionX="243" positionY="63" width="128" height="135"/>
+        <element name="Player" positionX="72" positionY="-108" width="128" height="90"/>
+        <element name="Seed" positionX="315" positionY="-156" width="128" height="150"/>
+        <element name="Team" positionX="-90" positionY="-108" width="128" height="180"/>
+        <element name="Tournament" positionX="-398" positionY="-297" width="128" height="120"/>
+        <element name="TournamentGroup" positionX="-29" positionY="-297" width="128" height="105"/>
+        <element name="TournamentMatch" positionX="151" positionY="-294" width="128" height="135"/>
+        <element name="TournamentRound" positionX="-216" positionY="-297" width="128" height="165"/>
+        <element name="TournamentTeam" positionX="-396" positionY="-111" width="128" height="120"/>
+        <element name="Wicket" positionX="250" positionY="405" width="128" height="90"/>
+    </elements>
+</model>

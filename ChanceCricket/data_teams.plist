@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>teams</key>
+	<dict>
+		<key>namibia</key>
+		<dict>
+			<key>teamName</key>
+			<string>Namibia</string>
+			<key>primaryHex</key>
+			<integer>27609</integer>
+			<key>secondaryHex</key>
+			<integer>16379912</integer>
+			<key>shortName</key>
+			<string>NAM</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Raymond</string>
+					<key>surname</key>
+					<string>van Schoor</string>
+					<key>initialName</key>
+					<string>R van Schoor</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Gerrie</string>
+					<key>surname</key>
+					<string>Snyman</string>
+					<key>initialName</key>
+					<string>G Snyman</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Louis</string>
+					<key>surname</key>
+					<string>van der Westhuizen</string>
+					<key>initialName</key>
+					<string>LP van der Westhuizen</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Craig</string>
+					<key>surname</key>
+					<string>Williams</string>
+					<key>initialName</key>
+					<string>CG Williams</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Sarel</string>
+					<key>surname</key>
+					<string>Burger</string>
+					<key>initialName</key>
+					<string>SF Burger</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Nicholaas</string>
+					<key>surname</key>
+					<string>Scholtz</string>
+					<key>initialName</key>
+					<string>NRP Scholtz</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Ian</string>
+					<key>surname</key>
+					<string>Opperman</string>
+					<key>initialName</key>
+					<string>I Opperman</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Christoffel</string>
+					<key>surname</key>
+					<string>Viljoen</string>
+					<key>initialName</key>
+					<string>C Viljoen</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Merwe</string>
+					<key>surname</key>
+					<string>Erasmus</string>
+					<key>initialName</key>
+					<string>MG Erasmus</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Louis</string>
+					<key>surname</key>
+					<string>Klazinga</string>
+					<key>initialName</key>
+					<string>L Klazinga</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Zhivago</string>
+					<key>surname</key>
+					<string>Groenewald</string>
+					<key>initialName</key>
+					<string>Z Groenewald</string>
+				</dict>
+			</array>
+		</dict>
+		<key>afghanistan</key>
+		<dict>
+			<key>teamName</key>
+			<string>Afghanistan</string>
+			<key>primaryHex</key>
+			<integer>552697</integer>
+			<key>secondaryHex</key>
+			<integer>16720161</integer>
+			<key>shortName</key>
+			<string>AFG</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Karim</string>
+					<key>surname</key>
+					<string>Khan</string>
+					<key>initialName</key>
+					<string>KS Khan</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Javed</string>
+					<key>surname</key>
+					<string>Ahmadi</string>
+					<key>initialName</key>
+					<string>J Ahmadi</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mohammad</string>
+					<key>surname</key>
+					<string>Mohammadi</string>
+					<key>initialName</key>
+					<string>MS Mohammadi</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Nawroz</string>
+					<key>surname</key>
+					<string>Mangal</string>
+					<key>initialName</key>
+					<string>NK Mangal</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Samiullah</string>
+					<key>surname</key>
+					<string>Shenwari</string>
+					<key>initialName</key>
+					<string>S Shenwari</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mohammad</string>
+					<key>surname</key>
+					<string>Stanikzai</string>
+					<key>initialName</key>
+					<string>MA Stanikzai</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mohammad</string>
+					<key>surname</key>
+					<string>Nabi</string>
+					<key>initialName</key>
+					<string>M Nabi</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Gulbodin</string>
+					<key>surname</key>
+					<string>Naib</string>
+					<key>initialName</key>
+					<string>G Naib</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Dawlat</string>
+					<key>surname</key>
+					<string>Zadran</string>
+					<key>initialName</key>
+					<string>D Zadran</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Aftab</string>
+					<key>surname</key>
+					<string>Alam</string>
+					<key>initialName</key>
+					<string>A Alam</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Izatullah</string>
+					<key>surname</key>
+					<string>Dawlatzai</string>
+					<key>initialName</key>
+					<string>I Dawlatzai</string>
+				</dict>
+			</array>
+		</dict>
+		<key>bangladesh</key>
+		<dict>
+			<key>teamName</key>
+			<string>Bangladesh</string>
+			<key>secondaryHex</key>
+			<integer>13500416</integer>
+			<key>primaryHex</key>
+			<integer>8637952</integer>
+			<key>shortName</key>
+			<string>BAN</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Tamim</string>
+					<key>surname</key>
+					<string>Khan</string>
+					<key>initialName</key>
+					<string>TI Khan</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Imrul</string>
+					<key>surname</key>
+					<string>Kayes</string>
+					<key>initialName</key>
+					<string>I Kayes</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mohammad</string>
+					<key>surname</key>
+					<string>Ashraful</string>
+					<key>initialName</key>
+					<string>M Ashraful</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Shakib</string>
+					<key>surname</key>
+					<string>Hasan</string>
+					<key>initialName</key>
+					<string>SA Hasan</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Alok</string>
+					<key>surname</key>
+					<string>Kapali</string>
+					<key>initialName</key>
+					<string>A Kapali</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mohammad</string>
+					<key>surname</key>
+					<string>Rahim</string>
+					<key>initialName</key>
+					<string>MM Rahim</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mohammed</string>
+					<key>surname</key>
+					<string>Islam</string>
+					<key>initialName</key>
+					<string>MN Islam</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mohammad</string>
+					<key>surname</key>
+					<string>Hossain</string>
+					<key>initialName</key>
+					<string>MN Hossain</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Abdur</string>
+					<key>surname</key>
+					<string>Razzak</string>
+					<key>initialName</key>
+					<string>A Razzak</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Shafiul</string>
+					<key>surname</key>
+					<string>Islam</string>
+					<key>initialName</key>
+					<string>S Islam</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mohammad</string>
+					<key>surname</key>
+					<string>Hossain</string>
+					<key>initialName</key>
+					<string>MR Hossain</string>
+				</dict>
+			</array>
+		</dict>
+		<key>zimbabwe</key>
+		<dict>
+			<key>teamName</key>
+			<string>Zimbabwe</string>
+			<key>secondaryHex</key>
+			<integer>6404609</integer>
+			<key>primaryHex</key>
+			<integer>14811136</integer>
+			<key>shortName</key>
+			<string>ZIM</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Vusimuzi</string>
+					<key>surname</key>
+					<string>Sibanda</string>
+					<key>initialName</key>
+					<string>V Sibanda</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Chamunorwa</string>
+					<key>surname</key>
+					<string>Chibhabha</string>
+					<key>initialName</key>
+					<string>CJ Chibhabha</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Cephas</string>
+					<key>surname</key>
+					<string>Zhuwao</string>
+					<key>initialName</key>
+					<string>C Zhuwao</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Brendan</string>
+					<key>surname</key>
+					<string>Taylor</string>
+					<key>initialName</key>
+					<string>BRM Taylor</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Hamilton</string>
+					<key>surname</key>
+					<string>Masakadza</string>
+					<key>initialName</key>
+					<string>H Masakadza</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Elton</string>
+					<key>surname</key>
+					<string>Chigumbura</string>
+					<key>initialName</key>
+					<string>E Chigumbura</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Charles</string>
+					<key>surname</key>
+					<string>Coventry</string>
+					<key>initialName</key>
+					<string>CK Coventry</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Tatenda</string>
+					<key>surname</key>
+					<string>Taibu</string>
+					<key>initialName</key>
+					<string>T Taibu</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Raymond</string>
+					<key>surname</key>
+					<string>Price</string>
+					<key>initialName</key>
+					<string>RW Price</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Kyle</string>
+					<key>surname</key>
+					<string>Jarvis</string>
+					<key>initialName</key>
+					<string>KM Jarvis</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Christopher</string>
+					<key>surname</key>
+					<string>Mpofu</string>
+					<key>initialName</key>
+					<string>CB Mpofu</string>
+				</dict>
+			</array>
+		</dict>
+		<key>england</key>
+		<dict>
+			<key>teamName</key>
+			<string>England</string>
+			<key>secondaryHex</key>
+			<integer>14691862</integer>
+			<key>primaryHex</key>
+			<integer>481172</integer>
+			<key>shortName</key>
+			<string>ENG</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Alexander</string>
+					<key>surname</key>
+					<string>Hales</string>
+					<key>initialName</key>
+					<string>AD Hales</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Craig</string>
+					<key>surname</key>
+					<string>Kieswetter</string>
+					<key>initialName</key>
+					<string>C Kieswetter</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Kevin</string>
+					<key>surname</key>
+					<string>Pietersen</string>
+					<key>initialName</key>
+					<string>KP Pietersen</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Samit</string>
+					<key>surname</key>
+					<string>Patel</string>
+					<key>initialName</key>
+					<string>SR Patel</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Ravinder</string>
+					<key>surname</key>
+					<string>Bopara</string>
+					<key>initialName</key>
+					<string>RS Bopara</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Jonathan</string>
+					<key>surname</key>
+					<string>Bairstow</string>
+					<key>initialName</key>
+					<string>JM Bairstow</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Joseph</string>
+					<key>surname</key>
+					<string>Buttler</string>
+					<key>initialName</key>
+					<string>JC Buttler</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Timothy</string>
+					<key>surname</key>
+					<string>Bresnan</string>
+					<key>initialName</key>
+					<string>TT Bresnan</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Graeme</string>
+					<key>surname</key>
+					<string>Swann</string>
+					<key>initialName</key>
+					<string>GP Swann</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Steven</string>
+					<key>surname</key>
+					<string>Finn</string>
+					<key>initialName</key>
+					<string>ST Finn</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Jade</string>
+					<key>surname</key>
+					<string>Dernbach</string>
+					<key>initialName</key>
+					<string>JW Dernbach</string>
+				</dict>
+			</array>
+		</dict>
+		<key>westIndies</key>
+		<dict>
+			<key>teamName</key>
+			<string>West Indies</string>
+			<key>secondaryHex</key>
+			<integer>16777215</integer>
+			<key>primaryHex</key>
+			<integer>11801669</integer>
+			<key>shortName</key>
+			<string>WI</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Lendl</string>
+					<key>surname</key>
+					<string>Simmons</string>
+					<key>initialName</key>
+					<string>LMP Simmons</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Adrian</string>
+					<key>surname</key>
+					<string>Barath</string>
+					<key>initialName</key>
+					<string>AB Barath</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Marlon</string>
+					<key>surname</key>
+					<string>Samuels</string>
+					<key>initialName</key>
+					<string>MN Samuels</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Andre</string>
+					<key>surname</key>
+					<string>Russell</string>
+					<key>initialName</key>
+					<string>AD Russell</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Darren</string>
+					<key>surname</key>
+					<string>Bravo</string>
+					<key>initialName</key>
+					<string>DM Bravo</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Danza</string>
+					<key>surname</key>
+					<string>Hyatt</string>
+					<key>initialName</key>
+					<string>DP Hyatt</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Darren</string>
+					<key>surname</key>
+					<string>Sammy</string>
+					<key>initialName</key>
+					<string>DJG Sammy</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Denesh</string>
+					<key>surname</key>
+					<string>Ramdin</string>
+					<key>initialName</key>
+					<string>D Ramdin</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Carlos</string>
+					<key>surname</key>
+					<string>Brathwaite</string>
+					<key>initialName</key>
+					<string>CR Brathwaite</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Ravindranath</string>
+					<key>surname</key>
+					<string>Rampaul</string>
+					<key>initialName</key>
+					<string>R Rampaul</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Anthony</string>
+					<key>surname</key>
+					<string>Martin</string>
+					<key>initialName</key>
+					<string>A Martin</string>
+				</dict>
+			</array>
+		</dict>
+		<key>newZealand</key>
+		<dict>
+			<key>secondaryHex</key>
+			<integer>14935011</integer>
+			<key>primaryHex</key>
+			<integer>2171169</integer>
+			<key>teamName</key>
+			<string>New Zealand</string>
+			<key>shortName</key>
+			<string>NZ</string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Martin</string>
+					<key>surname</key>
+					<string>Guptill</string>
+					<key>initialName</key>
+					<string>MJ Guptill</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Brendon</string>
+					<key>surname</key>
+					<string>McCullum</string>
+					<key>initialName</key>
+					<string>BB McCullum</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Jesse</string>
+					<key>surname</key>
+					<string>Ryder</string>
+					<key>initialName</key>
+					<string>JD Ryder</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Luteru</string>
+					<key>surname</key>
+					<string>Taylor</string>
+					<key>initialName</key>
+					<string>LRPLTaylor</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Kane</string>
+					<key>surname</key>
+					<string>Williamson</string>
+					<key>initialName</key>
+					<string>KS Williamson</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>James</string>
+					<key>surname</key>
+					<string>Franklin</string>
+					<key>initialName</key>
+					<string>JEC Franklin</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Nathan</string>
+					<key>surname</key>
+					<string>McCullum</string>
+					<key>initialName</key>
+					<string>NL McCullum</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Jacob</string>
+					<key>surname</key>
+					<string>Oram</string>
+					<key>initialName</key>
+					<string>JDP Oram</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Douglas</string>
+					<key>surname</key>
+					<string>Bracewell</string>
+					<key>initialName</key>
+					<string>DAJ Bracewell</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Kyle</string>
+					<key>surname</key>
+					<string>Mills</string>
+					<key>initialName</key>
+					<string>KD Mills</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Luke</string>
+					<key>surname</key>
+					<string>Woodcock</string>
+					<key>initialName</key>
+					<string>LJ Woodcock</string>
+				</dict>
+			</array>
+		</dict>
+		<key>southAfrica</key>
+		<dict>
+			<key>teamName</key>
+			<string>South Africa</string>
+			<key>shortName</key>
+			<string>RSA</string>
+			<key>secondaryHex</key>
+			<integer>15853568</integer>
+			<key>primaryHex</key>
+			<integer>311141</integer>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Graeme</string>
+					<key>surname</key>
+					<string>Smith</string>
+					<key>initialName</key>
+					<string>GC Smith</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Hashim</string>
+					<key>surname</key>
+					<string>Amla</string>
+					<key>initialName</key>
+					<string>HM Amla</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Colin</string>
+					<key>surname</key>
+					<string>Ingram</string>
+					<key>initialName</key>
+					<string>CA Ingram</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Jean-Paul</string>
+					<key>surname</key>
+					<string>Duminy</string>
+					<key>initialName</key>
+					<string>JP Duminy</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>David</string>
+					<key>surname</key>
+					<string>Miller</string>
+					<key>initialName</key>
+					<string>DA Miller</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Johan</string>
+					<key>surname</key>
+					<string>Botha</string>
+					<key>initialName</key>
+					<string>J Botha</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Robin</string>
+					<key>surname</key>
+					<string>Peterson</string>
+					<key>initialName</key>
+					<string>RJ Peterson</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Heino</string>
+					<key>surname</key>
+					<string>Kuhn</string>
+					<key>initialName</key>
+					<string>HG Kuhn</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Juan</string>
+					<key>surname</key>
+					<string>Theron</string>
+					<key>initialName</key>
+					<string>J Theron</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Morne</string>
+					<key>surname</key>
+					<string>Morkel</string>
+					<key>initialName</key>
+					<string>M Morkel</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Lonwabo</string>
+					<key>surname</key>
+					<string>Tsotsobe</string>
+					<key>initialName</key>
+					<string>LL Tsotsobe</string>
+				</dict>
+			</array>
+		</dict>
+		<key>pakistan</key>
+		<dict>
+			<key>teamName</key>
+			<string>Pakistan</string>
+			<key>shortName</key>
+			<string>PAK</string>
+			<key>secondaryHex</key>
+			<integer>13303679</integer>
+			<key>primaryHex</key>
+			<integer>4288256</integer>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Mohammad</string>
+					<key>surname</key>
+					<string>Hafeez</string>
+					<key>initialName</key>
+					<string>M Hafeez</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Nasir</string>
+					<key>surname</key>
+					<string>Jamshed</string>
+					<key>initialName</key>
+					<string>N Jamshed</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mohammad</string>
+					<key>surname</key>
+					<string>Khan</string>
+					<key>initialName</key>
+					<string>MY Khan</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Misbah-ul-Haq</string>
+					<key>surname</key>
+					<string>Niazi</string>
+					<key>initialName</key>
+					<string>MK Niazi</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Umar</string>
+					<key>surname</key>
+					<string>Akmal</string>
+					<key>initialName</key>
+					<string>U Akmal</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Hammad</string>
+					<key>surname</key>
+					<string>Azam</string>
+					<key>initialName</key>
+					<string>H Azam</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Sahibzada</string>
+					<key>surname</key>
+					<string>Afridi</string>
+					<key>initialName</key>
+					<string>SMSK Afridi</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Sarfraz</string>
+					<key>surname</key>
+					<string>Ahmed</string>
+					<key>initialName</key>
+					<string>S Ahmed</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Umar</string>
+					<key>surname</key>
+					<string>Gul</string>
+					<key>initialName</key>
+					<string>U Gul</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Saeed</string>
+					<key>surname</key>
+					<string>Ajmal</string>
+					<key>initialName</key>
+					<string>S Ajmal</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Aizaz</string>
+					<key>surname</key>
+					<string>Cheema</string>
+					<key>initialName</key>
+					<string>ABI Cheema</string>
+				</dict>
+			</array>
+		</dict>
+		<key>sriLanka</key>
+		<dict>
+			<key>teamName</key>
+			<string>Sri Lanka</string>
+			<key>shortName</key>
+			<string>SRL</string>
+			<key>secondaryHex</key>
+			<integer>16314112</integer>
+			<key>primaryHex</key>
+			<integer>221875</integer>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Denagamage</string>
+					<key>surname</key>
+					<string>Jayawardene</string>
+					<key>initialName</key>
+					<string>DPMDS Jayawardene</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Tillakaratne</string>
+					<key>surname</key>
+					<string>Dilshan</string>
+					<key>initialName</key>
+					<string>TM Dilshan</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Kumar</string>
+					<key>surname</key>
+					<string>Sangakkara</string>
+					<key>initialName</key>
+					<string>KC Sangakkara</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Lokuge</string>
+					<key>surname</key>
+					<string>Chandimal</string>
+					<key>initialName</key>
+					<string>LD Chandimal</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Hettige</string>
+					<key>surname</key>
+					<string>Thirimanne</string>
+					<key>initialName</key>
+					<string>HDRL Thirimanne</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Warushavithana</string>
+					<key>surname</key>
+					<string>Tharanga</string>
+					<key>initialName</key>
+					<string>WU Tharanga</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mohamed</string>
+					<key>surname</key>
+					<string>Maharoof</string>
+					<key>initialName</key>
+					<string>MF Maharoof</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Kulasekara</string>
+					<key>surname</key>
+					<string>Kulasekara</string>
+					<key>initialName</key>
+					<string>KMDN Kulasekara</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Seekkuge</string>
+					<key>surname</key>
+					<string>Prasanna</string>
+					<key>initialName</key>
+					<string>S Prasanna</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Separamadu</string>
+					<key>surname</key>
+					<string>Malinga</string>
+					<key>initialName</key>
+					<string>SL Malinga</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Ranasinghe</string>
+					<key>surname</key>
+					<string>Lakmal</string>
+					<key>initialName</key>
+					<string>RAS Lakmal</string>
+				</dict>
+			</array>
+		</dict>
+		<key>india</key>
+		<dict>
+			<key>teamName</key>
+			<string>India</string>
+			<key>shortName</key>
+			<string>IND</string>
+			<key>secondaryHex</key>
+			<integer>16155904</integer>
+			<key>primaryHex</key>
+			<integer>5491967</integer>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>Gautam</string>
+					<key>surname</key>
+					<string>Gambhir</string>
+					<key>initialName</key>
+					<string>G Gambhir</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Virender</string>
+					<key>surname</key>
+					<string>Sehwag</string>
+					<key>initialName</key>
+					<string>V Sehwag</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Virat</string>
+					<key>surname</key>
+					<string>Kohli</string>
+					<key>initialName</key>
+					<string>V Kohli</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Suresh</string>
+					<key>surname</key>
+					<string>Raina</string>
+					<key>initialName</key>
+					<string>SK Raina</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Rohit</string>
+					<key>surname</key>
+					<string>Sharma</string>
+					<key>initialName</key>
+					<string>RG Sharma</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mahendra</string>
+					<key>surname</key>
+					<string>Dhoni</string>
+					<key>initialName</key>
+					<string>MS Dhoni</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Ravindrasinh</string>
+					<key>surname</key>
+					<string>Jadeja</string>
+					<key>initialName</key>
+					<string>RA Jadeja</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Ravichandran</string>
+					<key>surname</key>
+					<string>Ashwin</string>
+					<key>initialName</key>
+					<string>R Ashwin</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Rahul</string>
+					<key>surname</key>
+					<string>Sharma</string>
+					<key>initialName</key>
+					<string>R Sharma</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Ranganath</string>
+					<key>surname</key>
+					<string>Kumar</string>
+					<key>initialName</key>
+					<string>RV Kumar</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Praveenkumar</string>
+					<key>surname</key>
+					<string>Singh</string>
+					<key>initialName</key>
+					<string>PS Singh</string>
+				</dict>
+			</array>
+		</dict>
+		<key>australia</key>
+		<dict>
+			<key>teamName</key>
+			<string>Australia</string>
+			<key>shortName</key>
+			<string>AUS</string>
+			<key>secondaryHex</key>
+			<integer>1987584</integer>
+			<key>primaryHex</key>
+			<integer>16770048</integer>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string>David</string>
+					<key>surname</key>
+					<string>Warner</string>
+					<key>initialName</key>
+					<string>DA Warner</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Matthew</string>
+					<key>surname</key>
+					<string>Wade</string>
+					<key>initialName</key>
+					<string>MS Wade</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Travis</string>
+					<key>surname</key>
+					<string>Birt</string>
+					<key>initialName</key>
+					<string>TR Birt</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>David</string>
+					<key>surname</key>
+					<string>Hussey</string>
+					<key>initialName</key>
+					<string>DJ Hussey</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>George</string>
+					<key>surname</key>
+					<string>Bailey</string>
+					<key>initialName</key>
+					<string>GJ Bailey</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Mitchell</string>
+					<key>surname</key>
+					<string>Marsh</string>
+					<key>initialName</key>
+					<string>MR Marsh</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Daniel</string>
+					<key>surname</key>
+					<string>Christian</string>
+					<key>initialName</key>
+					<string>DT Christian</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>James</string>
+					<key>surname</key>
+					<string>Faulkner</string>
+					<key>initialName</key>
+					<string>JP Faulkner</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Brad</string>
+					<key>surname</key>
+					<string>Hogg</string>
+					<key>initialName</key>
+					<string>GB Hogg</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Brett</string>
+					<key>surname</key>
+					<string>Lee</string>
+					<key>initialName</key>
+					<string>B Lee</string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string>Xavier</string>
+					<key>surname</key>
+					<string>Doherty</string>
+					<key>initialName</key>
+					<string>XJ Doherty</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>templates</key>
+	<dict>
+		<key>templateTeam</key>
+		<dict>
+			<key>teamName</key>
+			<string></string>
+			<key>shortName</key>
+			<string></string>
+			<key>players</key>
+			<array>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>forename</key>
+					<string></string>
+					<key>surname</key>
+					<string></string>
+					<key>initialName</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

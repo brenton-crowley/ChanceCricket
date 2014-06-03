@@ -1,0 +1,1287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B606C0A9150206DA00051A15 /* Team+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = B606C0A8150206DA00051A15 /* Team+Factory.m */; };
+		B606C0AC1502070B00051A15 /* Player+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = B606C0AB1502070B00051A15 /* Player+Factory.m */; };
+		B622E0F5150B997500AF5B59 /* ScoreboardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B622E0F3150B997500AF5B59 /* ScoreboardTableViewController.m */; };
+		B622E0F8150B9C4C00AF5B59 /* ScoreboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B622E0F7150B9C4C00AF5B59 /* ScoreboardTableViewCell.xib */; };
+		B622E0FB150BB95200AF5B59 /* HeadingTwoLinesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B622E0FA150BB95200AF5B59 /* HeadingTwoLinesTableViewCell.m */; };
+		B622E0FE150BC30C00AF5B59 /* LastWicketTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B622E0FD150BC30C00AF5B59 /* LastWicketTableViewCell.m */; };
+		B6331362151D0DF2009DD9C3 /* Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = B6331361151D0DF2009DD9C3 /* Seed.m */; };
+		B634CC27150AAEEB000D0C37 /* CommentaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B634CC26150AAEEB000D0C37 /* CommentaryViewController.m */; };
+		B64099D71525E7DD00631B14 /* CommentaryItemSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B64099D61525E7DD00631B14 /* CommentaryItemSequence.m */; };
+		B64099DA1525E81D00631B14 /* CommentaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B64099D91525E81D00631B14 /* CommentaryItem.m */; };
+		B659E38415274E2D009380CE /* WicketCommentarySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B659E38315274E2D009380CE /* WicketCommentarySequence.m */; };
+		B659E38715275304009380CE /* RunCommentarySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B659E38615275304009380CE /* RunCommentarySequence.m */; };
+		B659E38A15275557009380CE /* DotCommentarySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B659E38915275557009380CE /* DotCommentarySequence.m */; };
+		B659E38D15275623009380CE /* ChanceEventCommentarySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B659E38C15275623009380CE /* ChanceEventCommentarySequence.m */; };
+		B6613ABB150AB35400E2AE58 /* CommentaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6613ABA150AB35400E2AE58 /* CommentaryView.m */; };
+		B66E8774152654F200BE6F35 /* RunCommentaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B66E8773152654F200BE6F35 /* RunCommentaryItem.m */; };
+		B66E87771526554500BE6F35 /* BoundaryCommentaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B66E87761526554500BE6F35 /* BoundaryCommentaryItem.m */; };
+		B66E877A1526558700BE6F35 /* WicketCommentaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B66E87791526558700BE6F35 /* WicketCommentaryItem.m */; };
+		B66E877D152655DB00BE6F35 /* DotCommentaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B66E877C152655DB00BE6F35 /* DotCommentaryItem.m */; };
+		B66E87801526560A00BE6F35 /* ChanceEventCommentaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B66E877F1526560A00BE6F35 /* ChanceEventCommentaryItem.m */; };
+		B67D4EA2151DE72F0049C712 /* GotoMatchTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4EA1151DE72F0049C712 /* GotoMatchTargetAction.m */; };
+		B67D4EA5151DEC630049C712 /* SimulateMatchTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4EA4151DEC630049C712 /* SimulateMatchTargetAction.m */; };
+		B67D4EA8151DECC60049C712 /* GotoNextScheduledMatchTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4EA7151DECC60049C712 /* GotoNextScheduledMatchTargetAction.m */; };
+		B67D4EAB151DED010049C712 /* GotoNextRoundTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B67D4EAA151DED010049C712 /* GotoNextRoundTargetAction.m */; };
+		B69BF07F1513A55A004AD180 /* TeamSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69BF07E1513A55A004AD180 /* TeamSelectionTableViewController.m */; };
+		B69BF0821513A6DF004AD180 /* MatchSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69BF0811513A6DF004AD180 /* MatchSelectionTableViewController.m */; };
+		B6BF857F151CCA300091ACB3 /* TournamentCentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF857E151CCA300091ACB3 /* TournamentCentralViewController.m */; };
+		B6BF8582151CCA660091ACB3 /* TournamentCentralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF8581151CCA660091ACB3 /* TournamentCentralModel.m */; };
+		B6BF8586151CDB040091ACB3 /* TournamentMatchCentreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF8585151CDB040091ACB3 /* TournamentMatchCentreViewController.m */; };
+		B6BF858C151CDB780091ACB3 /* TournamentFixturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF858B151CDB780091ACB3 /* TournamentFixturesViewController.m */; };
+		B6BF858F151CDBB60091ACB3 /* TournamentStandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF858E151CDBB60091ACB3 /* TournamentStandingsViewController.m */; };
+		B6BF8592151CDBD40091ACB3 /* TournamentStatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF8591151CDBD40091ACB3 /* TournamentStatisticsViewController.m */; };
+		B6C340A614FB7AB20083EF7D /* ChanceCricketDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6C340A414FB7AB20083EF7D /* ChanceCricketDatabase.xcdatamodeld */; };
+		B6C340E314FB8D770083EF7D /* Delivery+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C340E214FB8D770083EF7D /* Delivery+Factory.m */; };
+		B6C340E614FB99DA0083EF7D /* Over+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C340E514FB99DA0083EF7D /* Over+Factory.m */; };
+		B6C3410D14FB9DF20083EF7D /* Inning+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3410C14FB9DF20083EF7D /* Inning+Factory.m */; };
+		B6C3411014FB9F280083EF7D /* Match+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3410F14FB9F280083EF7D /* Match+Factory.m */; };
+		B6CBA537151C75580065E5D3 /* TournamentTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CBA536151C75580065E5D3 /* TournamentTeam.m */; };
+		B6CBA53E151C75B10065E5D3 /* TournamentTeam+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CBA53D151C75B10065E5D3 /* TournamentTeam+Factory.m */; };
+		B6FF3E6E153355FA000D1635 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FF3E6D153355FA000D1635 /* Team.m */; };
+		DB085E6E151B6BBE0068A283 /* Delivery.m in Sources */ = {isa = PBXBuildFile; fileRef = DB085E6D151B6BBE0068A283 /* Delivery.m */; };
+		DB085E7A151B6BBF0068A283 /* Bowler.m in Sources */ = {isa = PBXBuildFile; fileRef = DB085E79151B6BBF0068A283 /* Bowler.m */; };
+		DB085E7D151B6BBF0068A283 /* Batsman.m in Sources */ = {isa = PBXBuildFile; fileRef = DB085E7C151B6BBF0068A283 /* Batsman.m */; };
+		DB085E83151B6BBF0068A283 /* Over.m in Sources */ = {isa = PBXBuildFile; fileRef = DB085E82151B6BBF0068A283 /* Over.m */; };
+		DB085E86151B6BBF0068A283 /* MatchSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = DB085E85151B6BBF0068A283 /* MatchSettings.m */; };
+		DB085E89151B6BBF0068A283 /* Wicket.m in Sources */ = {isa = PBXBuildFile; fileRef = DB085E88151B6BBF0068A283 /* Wicket.m */; };
+		DB085E8D151B6C890068A283 /* Seed+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = DB085E8C151B6C890068A283 /* Seed+Factory.m */; };
+		DB085EAC151B774F0068A283 /* TournamentGroup+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = DB085EAB151B774F0068A283 /* TournamentGroup+Factory.m */; };
+		DB085EC1151B7FD40068A283 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DB085EC0151B7FD40068A283 /* Player.m */; };
+		DB085EEC151B84CD0068A283 /* TournamentMatch+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = DB085EEB151B84CD0068A283 /* TournamentMatch+Factory.m */; };
+		DB1544BB15233D1300684BCE /* Inning.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1544BA15233D1300684BCE /* Inning.m */; };
+		DB1544BF152342DC00684BCE /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1544BE152342DC00684BCE /* Match.m */; };
+		DB1544C515234AE600684BCE /* TournamentMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1544C415234AE600684BCE /* TournamentMatch.m */; };
+		DB1544C815234CA500684BCE /* Tournament.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1544C715234CA500684BCE /* Tournament.m */; };
+		DB155E86150F997D00ED165F /* ScorecardSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = DB155E85150F997D00ED165F /* ScorecardSegment.m */; };
+		DB155E8D150F9EC900ED165F /* BattingInningScorecardSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB155E8C150F9EC900ED165F /* BattingInningScorecardSection.m */; };
+		DB155E9A150FBA7100ED165F /* ScoreboardCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB155E99150FBA7100ED165F /* ScoreboardCellData.m */; };
+		DB155EA215109C1300ED165F /* BowlingInningScorecardSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB155EA115109C1200ED165F /* BowlingInningScorecardSection.m */; };
+		DB155EA91510B4D300ED165F /* SummaryInningScorecardSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB155EA81510B4D300ED165F /* SummaryInningScorecardSection.m */; };
+		DB155EAC1510BA7300ED165F /* InningSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB155EAB1510BA7300ED165F /* InningSummaryCell.m */; };
+		DB197B2015175CA00063EE68 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = DB197B1F15175CA00063EE68 /* Settings.m */; };
+		DB197B23151763690063EE68 /* data_players.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB197B22151763680063EE68 /* data_players.plist */; };
+		DB197B2815177D350063EE68 /* data_tournaments.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB197B2715177D350063EE68 /* data_tournaments.plist */; };
+		DB197B4C1518B2C10063EE68 /* CreateTournamentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB197B4B1518B2C10063EE68 /* CreateTournamentTableViewController.m */; };
+		DB2AD14C1519D5F500335CEF /* TableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2AD14B1519D5F500335CEF /* TableViewSection.m */; };
+		DB2AD14F1519D67200335CEF /* TableViewSectionCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2AD14E1519D67200335CEF /* TableViewSectionCellData.m */; };
+		DB2AD1521519DF0B00335CEF /* AddTeamsCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2AD1511519DF0B00335CEF /* AddTeamsCellData.m */; };
+		DB2AD1551519E3CE00335CEF /* TitleSectionCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2AD1541519E3CE00335CEF /* TitleSectionCellData.m */; };
+		DB2AD166151B5A5000335CEF /* Tournament+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2AD165151B5A5000335CEF /* Tournament+Factory.m */; };
+		DB2AD17C151B61AE00335CEF /* TournamentRound+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2AD17B151B61AE00335CEF /* TournamentRound+Factory.m */; };
+		DB3999261508B08000B9174C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C340D814FB8B7B0083EF7D /* CoreData.framework */; };
+		DB3999271508B08000B9174C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC4106A14F54C46002E3A64 /* CoreGraphics.framework */; };
+		DB3999281508B08000B9174C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC4106814F54C46002E3A64 /* Foundation.framework */; };
+		DB39992D1508B08000B9174C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC4106614F54C46002E3A64 /* UIKit.framework */; };
+		DB76E04015204AA00024315E /* MatchSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB76E03F15204AA00024315E /* MatchSimulator.m */; };
+		DB76E0441520ACD50024315E /* StandingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB76E0431520ACD50024315E /* StandingsTableViewCell.m */; };
+		DB954EE914FE5A9D0038DC49 /* Match+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB954EE814FE5A9D0038DC49 /* Match+Validation.m */; };
+		DB98F7E01510EB120023E912 /* data_teams.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB98F7DF1510EB120023E912 /* data_teams.plist */; };
+		DBB72249151245460066F60B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB72248151245460066F60B /* MainViewController.m */; };
+		DBB7224D151245EB0066F60B /* CreateMatchModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB7224C151245EB0066F60B /* CreateMatchModalViewController.m */; };
+		DBC1DBD01504D04D00D4A430 /* Wicket+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC1DBCF1504D04D00D4A430 /* Wicket+Factory.m */; };
+		DBC1DBDB1504D7EA00D4A430 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC1DBD91504D7EA00D4A430 /* CoreDataTableViewController.m */; };
+		DBC1DC8015050ADB00D4A430 /* Bowler+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC1DC7F15050ADA00D4A430 /* Bowler+Factory.m */; };
+		DBC4107114F54C46002E3A64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBC4106F14F54C46002E3A64 /* InfoPlist.strings */; };
+		DBC4107314F54C46002E3A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4107214F54C46002E3A64 /* main.m */; };
+		DBC4107714F54C46002E3A64 /* ChanceCricketAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4107614F54C46002E3A64 /* ChanceCricketAppDelegate.m */; };
+		DBC4107A14F54C46002E3A64 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC4107814F54C46002E3A64 /* iPhone.storyboard */; };
+		DBC4107D14F54C46002E3A64 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4107C14F54C46002E3A64 /* MatchViewController.m */; };
+		DBC4108514F54D1B002E3A64 /* MatchEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4108414F54D1B002E3A64 /* MatchEngine.m */; };
+		DBC4109814F67915002E3A64 /* DetailedScorecardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC4109714F67915002E3A64 /* DetailedScorecardTableViewController.m */; };
+		DBCF776D14FD2AA200C99928 /* MatchDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCF776C14FD2AA200C99928 /* MatchDatabase.m */; };
+		DBD5F8D81504B81E00F157EC /* Batsman+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD5F8D71504B81E00F157EC /* Batsman+Factory.m */; };
+		DBD8FD9314FE1A200055BCCE /* DieEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD8FD9214FE1A200055BCCE /* DieEngine.m */; };
+		DBD8FDCA14FE30D30055BCCE /* MatchSettingsT20+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD8FDC914FE30D30055BCCE /* MatchSettingsT20+Factory.m */; };
+		DBD8FE1B14FE3BE30055BCCE /* MatchSettingsDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD8FE1A14FE3BE30055BCCE /* MatchSettingsDummy.m */; };
+		DBD8FE3314FE44730055BCCE /* Match+Summary.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD8FE3214FE44730055BCCE /* Match+Summary.m */; };
+		DBDB335D15219C0F00184112 /* TournamentRound.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDB335C15219C0F00184112 /* TournamentRound.m */; };
+		DBDB33601521E24D00184112 /* TournamentGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDB335F1521E24D00184112 /* TournamentGroup.m */; };
+		DBE3BB55150F34500005C9A7 /* ScoreboardBatsmanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE3BB54150F34500005C9A7 /* ScoreboardBatsmanCell.m */; };
+		DBE3BB58150F3DB10005C9A7 /* ScoreboardBowlerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE3BB57150F3DB10005C9A7 /* ScoreboardBowlerCell.m */; };
+		DBE3BBC0150F74870005C9A7 /* MatchSettingsT20.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE3BBBF150F74870005C9A7 /* MatchSettingsT20.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B606C0A7150206DA00051A15 /* Team+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Team+Factory.h"; sourceTree = "<group>"; };
+		B606C0A8150206DA00051A15 /* Team+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Team+Factory.m"; sourceTree = "<group>"; };
+		B606C0AA1502070B00051A15 /* Player+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Player+Factory.h"; sourceTree = "<group>"; };
+		B606C0AB1502070B00051A15 /* Player+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Player+Factory.m"; sourceTree = "<group>"; };
+		B622E0F2150B997500AF5B59 /* ScoreboardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardTableViewController.h; sourceTree = "<group>"; };
+		B622E0F3150B997500AF5B59 /* ScoreboardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardTableViewController.m; sourceTree = "<group>"; };
+		B622E0F7150B9C4C00AF5B59 /* ScoreboardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreboardTableViewCell.xib; sourceTree = "<group>"; };
+		B622E0F9150BB95200AF5B59 /* HeadingTwoLinesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadingTwoLinesTableViewCell.h; sourceTree = "<group>"; };
+		B622E0FA150BB95200AF5B59 /* HeadingTwoLinesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadingTwoLinesTableViewCell.m; sourceTree = "<group>"; };
+		B622E0FC150BC30C00AF5B59 /* LastWicketTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastWicketTableViewCell.h; sourceTree = "<group>"; };
+		B622E0FD150BC30C00AF5B59 /* LastWicketTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastWicketTableViewCell.m; sourceTree = "<group>"; };
+		B622E0FF150BD04700AF5B59 /* ScoreboardTableCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreboardTableCellProtocol.h; sourceTree = "<group>"; };
+		B6331360151D0DF2009DD9C3 /* Seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seed.h; sourceTree = "<group>"; };
+		B6331361151D0DF2009DD9C3 /* Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seed.m; sourceTree = "<group>"; };
+		B634CC25150AAEEB000D0C37 /* CommentaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentaryViewController.h; sourceTree = "<group>"; };
+		B634CC26150AAEEB000D0C37 /* CommentaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentaryViewController.m; sourceTree = "<group>"; };
+		B64099D51525E7DD00631B14 /* CommentaryItemSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentaryItemSequence.h; sourceTree = "<group>"; };
+		B64099D61525E7DD00631B14 /* CommentaryItemSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentaryItemSequence.m; sourceTree = "<group>"; };
+		B64099D81525E81D00631B14 /* CommentaryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentaryItem.h; sourceTree = "<group>"; };
+		B64099D91525E81D00631B14 /* CommentaryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentaryItem.m; sourceTree = "<group>"; };
+		B659E38215274E2D009380CE /* WicketCommentarySequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WicketCommentarySequence.h; sourceTree = "<group>"; };
+		B659E38315274E2D009380CE /* WicketCommentarySequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WicketCommentarySequence.m; sourceTree = "<group>"; };
+		B659E38515275304009380CE /* RunCommentarySequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunCommentarySequence.h; sourceTree = "<group>"; };
+		B659E38615275304009380CE /* RunCommentarySequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunCommentarySequence.m; sourceTree = "<group>"; };
+		B659E38815275557009380CE /* DotCommentarySequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotCommentarySequence.h; sourceTree = "<group>"; };
+		B659E38915275557009380CE /* DotCommentarySequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotCommentarySequence.m; sourceTree = "<group>"; };
+		B659E38B15275623009380CE /* ChanceEventCommentarySequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChanceEventCommentarySequence.h; sourceTree = "<group>"; };
+		B659E38C15275623009380CE /* ChanceEventCommentarySequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChanceEventCommentarySequence.m; sourceTree = "<group>"; };
+		B6613AB9150AB35400E2AE58 /* CommentaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentaryView.h; sourceTree = "<group>"; };
+		B6613ABA150AB35400E2AE58 /* CommentaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentaryView.m; sourceTree = "<group>"; };
+		B66E8772152654F200BE6F35 /* RunCommentaryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunCommentaryItem.h; sourceTree = "<group>"; };
+		B66E8773152654F200BE6F35 /* RunCommentaryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunCommentaryItem.m; sourceTree = "<group>"; };
+		B66E87751526554500BE6F35 /* BoundaryCommentaryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundaryCommentaryItem.h; sourceTree = "<group>"; };
+		B66E87761526554500BE6F35 /* BoundaryCommentaryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoundaryCommentaryItem.m; sourceTree = "<group>"; };
+		B66E87781526558700BE6F35 /* WicketCommentaryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WicketCommentaryItem.h; sourceTree = "<group>"; };
+		B66E87791526558700BE6F35 /* WicketCommentaryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WicketCommentaryItem.m; sourceTree = "<group>"; };
+		B66E877B152655DB00BE6F35 /* DotCommentaryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotCommentaryItem.h; sourceTree = "<group>"; };
+		B66E877C152655DB00BE6F35 /* DotCommentaryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotCommentaryItem.m; sourceTree = "<group>"; };
+		B66E877E1526560900BE6F35 /* ChanceEventCommentaryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChanceEventCommentaryItem.h; sourceTree = "<group>"; };
+		B66E877F1526560A00BE6F35 /* ChanceEventCommentaryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChanceEventCommentaryItem.m; sourceTree = "<group>"; };
+		B67D4E9F151DE6D30049C712 /* TargetActionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetActionProtocol.h; sourceTree = "<group>"; };
+		B67D4EA0151DE72F0049C712 /* GotoMatchTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GotoMatchTargetAction.h; sourceTree = "<group>"; };
+		B67D4EA1151DE72F0049C712 /* GotoMatchTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GotoMatchTargetAction.m; sourceTree = "<group>"; };
+		B67D4EA3151DEC630049C712 /* SimulateMatchTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulateMatchTargetAction.h; sourceTree = "<group>"; };
+		B67D4EA4151DEC630049C712 /* SimulateMatchTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulateMatchTargetAction.m; sourceTree = "<group>"; };
+		B67D4EA6151DECC60049C712 /* GotoNextScheduledMatchTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GotoNextScheduledMatchTargetAction.h; sourceTree = "<group>"; };
+		B67D4EA7151DECC60049C712 /* GotoNextScheduledMatchTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GotoNextScheduledMatchTargetAction.m; sourceTree = "<group>"; };
+		B67D4EA9151DED000049C712 /* GotoNextRoundTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GotoNextRoundTargetAction.h; sourceTree = "<group>"; };
+		B67D4EAA151DED010049C712 /* GotoNextRoundTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GotoNextRoundTargetAction.m; sourceTree = "<group>"; };
+		B69BF07D1513A55A004AD180 /* TeamSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamSelectionTableViewController.h; sourceTree = "<group>"; };
+		B69BF07E1513A55A004AD180 /* TeamSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamSelectionTableViewController.m; sourceTree = "<group>"; };
+		B69BF0801513A6DF004AD180 /* MatchSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchSelectionTableViewController.h; sourceTree = "<group>"; };
+		B69BF0811513A6DF004AD180 /* MatchSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchSelectionTableViewController.m; sourceTree = "<group>"; };
+		B6BF857D151CCA300091ACB3 /* TournamentCentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentCentralViewController.h; sourceTree = "<group>"; };
+		B6BF857E151CCA300091ACB3 /* TournamentCentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentCentralViewController.m; sourceTree = "<group>"; };
+		B6BF8580151CCA660091ACB3 /* TournamentCentralModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentCentralModel.h; sourceTree = "<group>"; };
+		B6BF8581151CCA660091ACB3 /* TournamentCentralModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentCentralModel.m; sourceTree = "<group>"; };
+		B6BF8584151CDB040091ACB3 /* TournamentMatchCentreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentMatchCentreViewController.h; sourceTree = "<group>"; };
+		B6BF8585151CDB040091ACB3 /* TournamentMatchCentreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentMatchCentreViewController.m; sourceTree = "<group>"; };
+		B6BF858A151CDB780091ACB3 /* TournamentFixturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentFixturesViewController.h; sourceTree = "<group>"; };
+		B6BF858B151CDB780091ACB3 /* TournamentFixturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentFixturesViewController.m; sourceTree = "<group>"; };
+		B6BF858D151CDBB60091ACB3 /* TournamentStandingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentStandingsViewController.h; sourceTree = "<group>"; };
+		B6BF858E151CDBB60091ACB3 /* TournamentStandingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentStandingsViewController.m; sourceTree = "<group>"; };
+		B6BF8590151CDBD40091ACB3 /* TournamentStatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentStatisticsViewController.h; sourceTree = "<group>"; };
+		B6BF8591151CDBD40091ACB3 /* TournamentStatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentStatisticsViewController.m; sourceTree = "<group>"; };
+		B6C340A514FB7AB20083EF7D /* ChanceCricketDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChanceCricketDatabase.xcdatamodel; sourceTree = "<group>"; };
+		B6C340D814FB8B7B0083EF7D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B6C340E114FB8D770083EF7D /* Delivery+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Delivery+Factory.h"; sourceTree = "<group>"; };
+		B6C340E214FB8D770083EF7D /* Delivery+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Delivery+Factory.m"; sourceTree = "<group>"; };
+		B6C340E414FB99DA0083EF7D /* Over+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Over+Factory.h"; sourceTree = "<group>"; };
+		B6C340E514FB99DA0083EF7D /* Over+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Over+Factory.m"; sourceTree = "<group>"; };
+		B6C3410B14FB9DF20083EF7D /* Inning+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Inning+Factory.h"; sourceTree = "<group>"; };
+		B6C3410C14FB9DF20083EF7D /* Inning+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Inning+Factory.m"; sourceTree = "<group>"; };
+		B6C3410E14FB9F280083EF7D /* Match+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Match+Factory.h"; sourceTree = "<group>"; };
+		B6C3410F14FB9F280083EF7D /* Match+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Match+Factory.m"; sourceTree = "<group>"; };
+		B6CBA535151C75580065E5D3 /* TournamentTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentTeam.h; sourceTree = "<group>"; };
+		B6CBA536151C75580065E5D3 /* TournamentTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentTeam.m; sourceTree = "<group>"; };
+		B6CBA53C151C75B10065E5D3 /* TournamentTeam+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TournamentTeam+Factory.h"; sourceTree = "<group>"; };
+		B6CBA53D151C75B10065E5D3 /* TournamentTeam+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TournamentTeam+Factory.m"; sourceTree = "<group>"; };
+		B6FF3E6915334BCF000D1635 /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
+		B6FF3E6A15334BCF000D1635 /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
+		B6FF3E6B15334E3C000D1635 /* ColorSpaceUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSpaceUtilities.h; sourceTree = "<group>"; };
+		B6FF3E6C153355FA000D1635 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		B6FF3E6D153355FA000D1635 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		DB085E6C151B6BBE0068A283 /* Delivery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delivery.h; sourceTree = "<group>"; };
+		DB085E6D151B6BBE0068A283 /* Delivery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Delivery.m; sourceTree = "<group>"; };
+		DB085E78151B6BBF0068A283 /* Bowler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bowler.h; sourceTree = "<group>"; };
+		DB085E79151B6BBF0068A283 /* Bowler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bowler.m; sourceTree = "<group>"; };
+		DB085E7B151B6BBF0068A283 /* Batsman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Batsman.h; sourceTree = "<group>"; };
+		DB085E7C151B6BBF0068A283 /* Batsman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Batsman.m; sourceTree = "<group>"; };
+		DB085E81151B6BBF0068A283 /* Over.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Over.h; sourceTree = "<group>"; };
+		DB085E82151B6BBF0068A283 /* Over.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Over.m; sourceTree = "<group>"; };
+		DB085E84151B6BBF0068A283 /* MatchSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchSettings.h; sourceTree = "<group>"; };
+		DB085E85151B6BBF0068A283 /* MatchSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchSettings.m; sourceTree = "<group>"; };
+		DB085E87151B6BBF0068A283 /* Wicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wicket.h; sourceTree = "<group>"; };
+		DB085E88151B6BBF0068A283 /* Wicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wicket.m; sourceTree = "<group>"; };
+		DB085E8B151B6C890068A283 /* Seed+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Seed+Factory.h"; sourceTree = "<group>"; };
+		DB085E8C151B6C890068A283 /* Seed+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Seed+Factory.m"; sourceTree = "<group>"; };
+		DB085EAA151B774F0068A283 /* TournamentGroup+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TournamentGroup+Factory.h"; sourceTree = "<group>"; };
+		DB085EAB151B774F0068A283 /* TournamentGroup+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TournamentGroup+Factory.m"; sourceTree = "<group>"; };
+		DB085EBF151B7FD40068A283 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		DB085EC0151B7FD40068A283 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		DB085EEA151B84CD0068A283 /* TournamentMatch+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TournamentMatch+Factory.h"; sourceTree = "<group>"; };
+		DB085EEB151B84CD0068A283 /* TournamentMatch+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TournamentMatch+Factory.m"; sourceTree = "<group>"; };
+		DB1544B915233D1300684BCE /* Inning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inning.h; sourceTree = "<group>"; };
+		DB1544BA15233D1300684BCE /* Inning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inning.m; sourceTree = "<group>"; };
+		DB1544BD152342DC00684BCE /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		DB1544BE152342DC00684BCE /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		DB1544C315234AE600684BCE /* TournamentMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentMatch.h; sourceTree = "<group>"; };
+		DB1544C415234AE600684BCE /* TournamentMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentMatch.m; sourceTree = "<group>"; };
+		DB1544C615234CA500684BCE /* Tournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tournament.h; sourceTree = "<group>"; };
+		DB1544C715234CA500684BCE /* Tournament.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tournament.m; sourceTree = "<group>"; };
+		DB155E84150F997D00ED165F /* ScorecardSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScorecardSegment.h; sourceTree = "<group>"; };
+		DB155E85150F997D00ED165F /* ScorecardSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScorecardSegment.m; sourceTree = "<group>"; };
+		DB155E8B150F9EC900ED165F /* BattingInningScorecardSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattingInningScorecardSection.h; sourceTree = "<group>"; };
+		DB155E8C150F9EC900ED165F /* BattingInningScorecardSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattingInningScorecardSection.m; sourceTree = "<group>"; };
+		DB155E98150FBA7100ED165F /* ScoreboardCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardCellData.h; sourceTree = "<group>"; };
+		DB155E99150FBA7100ED165F /* ScoreboardCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardCellData.m; sourceTree = "<group>"; };
+		DB155E9E15108A7C00ED165F /* SectionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionProtocol.h; sourceTree = "<group>"; };
+		DB155E9F1510926A00ED165F /* SegmentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentProtocol.h; sourceTree = "<group>"; };
+		DB155EA015109C1200ED165F /* BowlingInningScorecardSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowlingInningScorecardSection.h; sourceTree = "<group>"; };
+		DB155EA115109C1200ED165F /* BowlingInningScorecardSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowlingInningScorecardSection.m; sourceTree = "<group>"; };
+		DB155EA71510B4D300ED165F /* SummaryInningScorecardSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryInningScorecardSection.h; sourceTree = "<group>"; };
+		DB155EA81510B4D300ED165F /* SummaryInningScorecardSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryInningScorecardSection.m; sourceTree = "<group>"; };
+		DB155EAA1510BA7300ED165F /* InningSummaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InningSummaryCell.h; sourceTree = "<group>"; };
+		DB155EAB1510BA7300ED165F /* InningSummaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InningSummaryCell.m; sourceTree = "<group>"; };
+		DB155EAD1510DBF400ED165F /* ScoreboardCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardCellProtocol.h; sourceTree = "<group>"; };
+		DB197B1E15175CA00063EE68 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		DB197B1F15175CA00063EE68 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		DB197B22151763680063EE68 /* data_players.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data_players.plist; sourceTree = "<group>"; };
+		DB197B2715177D350063EE68 /* data_tournaments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data_tournaments.plist; sourceTree = "<group>"; };
+		DB197B3815187BEF0063EE68 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DB197B4A1518B2C10063EE68 /* CreateTournamentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateTournamentTableViewController.h; sourceTree = "<group>"; };
+		DB197B4B1518B2C10063EE68 /* CreateTournamentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateTournamentTableViewController.m; sourceTree = "<group>"; };
+		DB2AD14A1519D5F500335CEF /* TableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewSection.h; sourceTree = "<group>"; };
+		DB2AD14B1519D5F500335CEF /* TableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewSection.m; sourceTree = "<group>"; };
+		DB2AD14D1519D67200335CEF /* TableViewSectionCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewSectionCellData.h; sourceTree = "<group>"; };
+		DB2AD14E1519D67200335CEF /* TableViewSectionCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewSectionCellData.m; sourceTree = "<group>"; };
+		DB2AD1501519DF0B00335CEF /* AddTeamsCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTeamsCellData.h; sourceTree = "<group>"; };
+		DB2AD1511519DF0B00335CEF /* AddTeamsCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTeamsCellData.m; sourceTree = "<group>"; };
+		DB2AD1531519E3CE00335CEF /* TitleSectionCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleSectionCellData.h; sourceTree = "<group>"; };
+		DB2AD1541519E3CE00335CEF /* TitleSectionCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleSectionCellData.m; sourceTree = "<group>"; };
+		DB2AD164151B5A5000335CEF /* Tournament+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tournament+Factory.h"; sourceTree = "<group>"; };
+		DB2AD165151B5A5000335CEF /* Tournament+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tournament+Factory.m"; sourceTree = "<group>"; };
+		DB2AD17A151B61AE00335CEF /* TournamentRound+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TournamentRound+Factory.h"; sourceTree = "<group>"; };
+		DB2AD17B151B61AE00335CEF /* TournamentRound+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TournamentRound+Factory.m"; sourceTree = "<group>"; };
+		DB76E03E15204AA00024315E /* MatchSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchSimulator.h; sourceTree = "<group>"; };
+		DB76E03F15204AA00024315E /* MatchSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchSimulator.m; sourceTree = "<group>"; };
+		DB76E0421520ACD50024315E /* StandingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandingsTableViewCell.h; sourceTree = "<group>"; };
+		DB76E0431520ACD50024315E /* StandingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandingsTableViewCell.m; sourceTree = "<group>"; };
+		DB954EE714FE5A9D0038DC49 /* Match+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Match+Validation.h"; sourceTree = "<group>"; };
+		DB954EE814FE5A9D0038DC49 /* Match+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Match+Validation.m"; sourceTree = "<group>"; };
+		DB98F7DF1510EB120023E912 /* data_teams.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data_teams.plist; sourceTree = "<group>"; };
+		DBB72247151245460066F60B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DBB72248151245460066F60B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DBB7224B151245EB0066F60B /* CreateMatchModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateMatchModalViewController.h; sourceTree = "<group>"; };
+		DBB7224C151245EB0066F60B /* CreateMatchModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateMatchModalViewController.m; sourceTree = "<group>"; };
+		DBC1DBCE1504D04D00D4A430 /* Wicket+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Wicket+Factory.h"; sourceTree = "<group>"; };
+		DBC1DBCF1504D04D00D4A430 /* Wicket+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Wicket+Factory.m"; sourceTree = "<group>"; };
+		DBC1DBD91504D7EA00D4A430 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		DBC1DBDA1504D7EA00D4A430 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		DBC1DC7E15050ADA00D4A430 /* Bowler+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bowler+Factory.h"; sourceTree = "<group>"; };
+		DBC1DC7F15050ADA00D4A430 /* Bowler+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bowler+Factory.m"; sourceTree = "<group>"; };
+		DBC4106214F54C46002E3A64 /* ChanceCricket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChanceCricket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC4106614F54C46002E3A64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBC4106814F54C46002E3A64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBC4106A14F54C46002E3A64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBC4106E14F54C46002E3A64 /* ChanceCricket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChanceCricket-Info.plist"; sourceTree = "<group>"; };
+		DBC4107014F54C46002E3A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBC4107214F54C46002E3A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBC4107414F54C46002E3A64 /* ChanceCricket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChanceCricket-Prefix.pch"; sourceTree = "<group>"; };
+		DBC4107514F54C46002E3A64 /* ChanceCricketAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChanceCricketAppDelegate.h; sourceTree = "<group>"; };
+		DBC4107614F54C46002E3A64 /* ChanceCricketAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChanceCricketAppDelegate.m; sourceTree = "<group>"; };
+		DBC4107914F54C46002E3A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		DBC4107B14F54C46002E3A64 /* MatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		DBC4107C14F54C46002E3A64 /* MatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
+		DBC4108314F54D1B002E3A64 /* MatchEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchEngine.h; sourceTree = "<group>"; };
+		DBC4108414F54D1B002E3A64 /* MatchEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchEngine.m; sourceTree = "<group>"; };
+		DBC4109614F67915002E3A64 /* DetailedScorecardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedScorecardTableViewController.h; sourceTree = "<group>"; };
+		DBC4109714F67915002E3A64 /* DetailedScorecardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedScorecardTableViewController.m; sourceTree = "<group>"; };
+		DBCF776B14FD2AA200C99928 /* MatchDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchDatabase.h; sourceTree = "<group>"; };
+		DBCF776C14FD2AA200C99928 /* MatchDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchDatabase.m; sourceTree = "<group>"; };
+		DBD5F8D61504B81E00F157EC /* Batsman+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Batsman+Factory.h"; sourceTree = "<group>"; };
+		DBD5F8D71504B81E00F157EC /* Batsman+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Batsman+Factory.m"; sourceTree = "<group>"; };
+		DBD8FD9114FE1A200055BCCE /* DieEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieEngine.h; sourceTree = "<group>"; };
+		DBD8FD9214FE1A200055BCCE /* DieEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieEngine.m; sourceTree = "<group>"; };
+		DBD8FDC814FE30D30055BCCE /* MatchSettingsT20+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MatchSettingsT20+Factory.h"; sourceTree = "<group>"; };
+		DBD8FDC914FE30D30055BCCE /* MatchSettingsT20+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MatchSettingsT20+Factory.m"; sourceTree = "<group>"; };
+		DBD8FE1914FE3BE30055BCCE /* MatchSettingsDummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchSettingsDummy.h; sourceTree = "<group>"; };
+		DBD8FE1A14FE3BE30055BCCE /* MatchSettingsDummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchSettingsDummy.m; sourceTree = "<group>"; };
+		DBD8FE3114FE44730055BCCE /* Match+Summary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Match+Summary.h"; sourceTree = "<group>"; };
+		DBD8FE3214FE44730055BCCE /* Match+Summary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Match+Summary.m"; sourceTree = "<group>"; };
+		DBDB335B15219C0F00184112 /* TournamentRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentRound.h; sourceTree = "<group>"; };
+		DBDB335C15219C0F00184112 /* TournamentRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentRound.m; sourceTree = "<group>"; };
+		DBDB335E1521E24D00184112 /* TournamentGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentGroup.h; sourceTree = "<group>"; };
+		DBDB335F1521E24D00184112 /* TournamentGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentGroup.m; sourceTree = "<group>"; };
+		DBE3BB53150F34500005C9A7 /* ScoreboardBatsmanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardBatsmanCell.h; sourceTree = "<group>"; };
+		DBE3BB54150F34500005C9A7 /* ScoreboardBatsmanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardBatsmanCell.m; sourceTree = "<group>"; };
+		DBE3BB56150F3DB10005C9A7 /* ScoreboardBowlerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardBowlerCell.h; sourceTree = "<group>"; };
+		DBE3BB57150F3DB10005C9A7 /* ScoreboardBowlerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardBowlerCell.m; sourceTree = "<group>"; };
+		DBE3BBBE150F74870005C9A7 /* MatchSettingsT20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchSettingsT20.h; sourceTree = "<group>"; };
+		DBE3BBBF150F74870005C9A7 /* MatchSettingsT20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchSettingsT20.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC4105F14F54C46002E3A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3999261508B08000B9174C /* CoreData.framework in Frameworks */,
+				DB3999271508B08000B9174C /* CoreGraphics.framework in Frameworks */,
+				DB3999281508B08000B9174C /* Foundation.framework in Frameworks */,
+				DB39992D1508B08000B9174C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B606C0A5150206B700051A15 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				B606C0A7150206DA00051A15 /* Team+Factory.h */,
+				B606C0A8150206DA00051A15 /* Team+Factory.m */,
+				B606C0A6150206BD00051A15 /* Player */,
+			);
+			name = Team;
+			sourceTree = "<group>";
+		};
+		B606C0A6150206BD00051A15 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				B606C0AA1502070B00051A15 /* Player+Factory.h */,
+				B606C0AB1502070B00051A15 /* Player+Factory.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		B622E0E9150B705C00AF5B59 /* Scoreboard */ = {
+			isa = PBXGroup;
+			children = (
+				B622E0F2150B997500AF5B59 /* ScoreboardTableViewController.h */,
+				B622E0F3150B997500AF5B59 /* ScoreboardTableViewController.m */,
+				B622E0F7150B9C4C00AF5B59 /* ScoreboardTableViewCell.xib */,
+				B622E0F9150BB95200AF5B59 /* HeadingTwoLinesTableViewCell.h */,
+				B622E0FA150BB95200AF5B59 /* HeadingTwoLinesTableViewCell.m */,
+				B622E0FC150BC30C00AF5B59 /* LastWicketTableViewCell.h */,
+				B622E0FF150BD04700AF5B59 /* ScoreboardTableCellProtocol.h */,
+				B622E0FD150BC30C00AF5B59 /* LastWicketTableViewCell.m */,
+			);
+			name = Scoreboard;
+			sourceTree = "<group>";
+		};
+		B64099D41525E70500631B14 /* CommentaryItems */ = {
+			isa = PBXGroup;
+			children = (
+				B64099D81525E81D00631B14 /* CommentaryItem.h */,
+				B64099D91525E81D00631B14 /* CommentaryItem.m */,
+				B66E8772152654F200BE6F35 /* RunCommentaryItem.h */,
+				B66E8773152654F200BE6F35 /* RunCommentaryItem.m */,
+				B66E87751526554500BE6F35 /* BoundaryCommentaryItem.h */,
+				B66E87761526554500BE6F35 /* BoundaryCommentaryItem.m */,
+				B66E87781526558700BE6F35 /* WicketCommentaryItem.h */,
+				B66E87791526558700BE6F35 /* WicketCommentaryItem.m */,
+				B66E877B152655DB00BE6F35 /* DotCommentaryItem.h */,
+				B66E877C152655DB00BE6F35 /* DotCommentaryItem.m */,
+				B66E877E1526560900BE6F35 /* ChanceEventCommentaryItem.h */,
+				B66E877F1526560A00BE6F35 /* ChanceEventCommentaryItem.m */,
+			);
+			name = CommentaryItems;
+			sourceTree = "<group>";
+		};
+		B659E38115274E0D009380CE /* CommentarySequences */ = {
+			isa = PBXGroup;
+			children = (
+				B659E38215274E2D009380CE /* WicketCommentarySequence.h */,
+				B659E38315274E2D009380CE /* WicketCommentarySequence.m */,
+				B659E38515275304009380CE /* RunCommentarySequence.h */,
+				B659E38615275304009380CE /* RunCommentarySequence.m */,
+				B659E38815275557009380CE /* DotCommentarySequence.h */,
+				B659E38915275557009380CE /* DotCommentarySequence.m */,
+				B659E38B15275623009380CE /* ChanceEventCommentarySequence.h */,
+				B659E38C15275623009380CE /* ChanceEventCommentarySequence.m */,
+			);
+			name = CommentarySequences;
+			sourceTree = "<group>";
+		};
+		B6613ABC150AB35900E2AE58 /* Commentary Bar */ = {
+			isa = PBXGroup;
+			children = (
+				B634CC25150AAEEB000D0C37 /* CommentaryViewController.h */,
+				B634CC26150AAEEB000D0C37 /* CommentaryViewController.m */,
+				B6613AB9150AB35400E2AE58 /* CommentaryView.h */,
+				B6613ABA150AB35400E2AE58 /* CommentaryView.m */,
+				B64099D51525E7DD00631B14 /* CommentaryItemSequence.h */,
+				B64099D61525E7DD00631B14 /* CommentaryItemSequence.m */,
+				B659E38115274E0D009380CE /* CommentarySequences */,
+				B64099D41525E70500631B14 /* CommentaryItems */,
+			);
+			name = "Commentary Bar";
+			sourceTree = "<group>";
+		};
+		B67D4E9B151DE6900049C712 /* TargetActions */ = {
+			isa = PBXGroup;
+			children = (
+				B67D4E9F151DE6D30049C712 /* TargetActionProtocol.h */,
+				B67D4EA0151DE72F0049C712 /* GotoMatchTargetAction.h */,
+				B67D4EA1151DE72F0049C712 /* GotoMatchTargetAction.m */,
+				B67D4EA3151DEC630049C712 /* SimulateMatchTargetAction.h */,
+				B67D4EA4151DEC630049C712 /* SimulateMatchTargetAction.m */,
+				B67D4EA6151DECC60049C712 /* GotoNextScheduledMatchTargetAction.h */,
+				B67D4EA7151DECC60049C712 /* GotoNextScheduledMatchTargetAction.m */,
+				B67D4EA9151DED000049C712 /* GotoNextRoundTargetAction.h */,
+				B67D4EAA151DED010049C712 /* GotoNextRoundTargetAction.m */,
+			);
+			name = TargetActions;
+			sourceTree = "<group>";
+		};
+		B6BF857B151CC9BB0091ACB3 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				DB197B4A1518B2C10063EE68 /* CreateTournamentTableViewController.h */,
+				DB197B4B1518B2C10063EE68 /* CreateTournamentTableViewController.m */,
+				DB2AD1501519DF0B00335CEF /* AddTeamsCellData.h */,
+				DB2AD1511519DF0B00335CEF /* AddTeamsCellData.m */,
+			);
+			name = Creation;
+			sourceTree = "<group>";
+		};
+		B6BF857C151CC9CF0091ACB3 /* TournamentCentral */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF8580151CCA660091ACB3 /* TournamentCentralModel.h */,
+				B6BF8581151CCA660091ACB3 /* TournamentCentralModel.m */,
+				B6BF857D151CCA300091ACB3 /* TournamentCentralViewController.h */,
+				B6BF857E151CCA300091ACB3 /* TournamentCentralViewController.m */,
+				B6BF8583151CDACC0091ACB3 /* MatchCentre */,
+				B6BF8587151CDB390091ACB3 /* Fixtures */,
+				B6BF8588151CDB420091ACB3 /* Standings */,
+				B6BF8589151CDB4C0091ACB3 /* Stats */,
+			);
+			name = TournamentCentral;
+			sourceTree = "<group>";
+		};
+		B6BF8583151CDACC0091ACB3 /* MatchCentre */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF8584151CDB040091ACB3 /* TournamentMatchCentreViewController.h */,
+				B6BF8585151CDB040091ACB3 /* TournamentMatchCentreViewController.m */,
+				B67D4E9B151DE6900049C712 /* TargetActions */,
+			);
+			name = MatchCentre;
+			sourceTree = "<group>";
+		};
+		B6BF8587151CDB390091ACB3 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF858A151CDB780091ACB3 /* TournamentFixturesViewController.h */,
+				B6BF858B151CDB780091ACB3 /* TournamentFixturesViewController.m */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		B6BF8588151CDB420091ACB3 /* Standings */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF858D151CDBB60091ACB3 /* TournamentStandingsViewController.h */,
+				B6BF858E151CDBB60091ACB3 /* TournamentStandingsViewController.m */,
+				DB76E0411520ACB10024315E /* Cells */,
+			);
+			name = Standings;
+			sourceTree = "<group>";
+		};
+		B6BF8589151CDB4C0091ACB3 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF8590151CDBD40091ACB3 /* TournamentStatisticsViewController.h */,
+				B6BF8591151CDBD40091ACB3 /* TournamentStatisticsViewController.m */,
+			);
+			name = Stats;
+			sourceTree = "<group>";
+		};
+		B6C340B314FB84E70083EF7D /* Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6C340A414FB7AB20083EF7D /* ChanceCricketDatabase.xcdatamodeld */,
+				DBD8FDB414FE301F0055BCCE /* Auto Generated */,
+				DB2AD163151B5A3D00335CEF /* Tournament */,
+				B606C0A5150206B700051A15 /* Team */,
+				DBD8FDC714FE30B10055BCCE /* Settings */,
+				B6C340E014FB8D480083EF7D /* Over */,
+				B6C340DF14FB8D430083EF7D /* Match */,
+				B6C340DE14FB8D3B0083EF7D /* Inning */,
+				B6C340DD14FB8D2B0083EF7D /* Delivery */,
+			);
+			name = "Core Data Model";
+			sourceTree = "<group>";
+		};
+		B6C340DD14FB8D2B0083EF7D /* Delivery */ = {
+			isa = PBXGroup;
+			children = (
+				B6C340E114FB8D770083EF7D /* Delivery+Factory.h */,
+				B6C340E214FB8D770083EF7D /* Delivery+Factory.m */,
+			);
+			name = Delivery;
+			sourceTree = "<group>";
+		};
+		B6C340DE14FB8D3B0083EF7D /* Inning */ = {
+			isa = PBXGroup;
+			children = (
+				B6C3410B14FB9DF20083EF7D /* Inning+Factory.h */,
+				B6C3410C14FB9DF20083EF7D /* Inning+Factory.m */,
+				DBC1DBD11504D05600D4A430 /* Wicket */,
+				DBD5F8D91504B82200F157EC /* Batsman */,
+				DBC1DC8115050ADF00D4A430 /* Bowler */,
+			);
+			name = Inning;
+			sourceTree = "<group>";
+		};
+		B6C340DF14FB8D430083EF7D /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				B6C3410E14FB9F280083EF7D /* Match+Factory.h */,
+				B6C3410F14FB9F280083EF7D /* Match+Factory.m */,
+				DBD8FE3114FE44730055BCCE /* Match+Summary.h */,
+				DBD8FE3214FE44730055BCCE /* Match+Summary.m */,
+				DB954EE714FE5A9D0038DC49 /* Match+Validation.h */,
+				DB954EE814FE5A9D0038DC49 /* Match+Validation.m */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		B6C340E014FB8D480083EF7D /* Over */ = {
+			isa = PBXGroup;
+			children = (
+				B6C340E414FB99DA0083EF7D /* Over+Factory.h */,
+				B6C340E514FB99DA0083EF7D /* Over+Factory.m */,
+			);
+			name = Over;
+			sourceTree = "<group>";
+		};
+		B6CBA53B151C759F0065E5D3 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBA53C151C75B10065E5D3 /* TournamentTeam+Factory.h */,
+				B6CBA53D151C75B10065E5D3 /* TournamentTeam+Factory.m */,
+			);
+			name = Teams;
+			sourceTree = "<group>";
+		};
+		B6DCCBFC1513997700613844 /* SelectMatchModal */ = {
+			isa = PBXGroup;
+			children = (
+				B69BF0801513A6DF004AD180 /* MatchSelectionTableViewController.h */,
+				B69BF0811513A6DF004AD180 /* MatchSelectionTableViewController.m */,
+			);
+			name = SelectMatchModal;
+			sourceTree = "<group>";
+		};
+		DB085E8A151B6C6D0068A283 /* Seeds */ = {
+			isa = PBXGroup;
+			children = (
+				DB085E8B151B6C890068A283 /* Seed+Factory.h */,
+				DB085E8C151B6C890068A283 /* Seed+Factory.m */,
+			);
+			name = Seeds;
+			sourceTree = "<group>";
+		};
+		DB085EA9151B77300068A283 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				DB085EAA151B774F0068A283 /* TournamentGroup+Factory.h */,
+				DB085EAB151B774F0068A283 /* TournamentGroup+Factory.m */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
+		DB085EE9151B84BC0068A283 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				DB085EEA151B84CD0068A283 /* TournamentMatch+Factory.h */,
+				DB085EEB151B84CD0068A283 /* TournamentMatch+Factory.m */,
+			);
+			name = Matches;
+			sourceTree = "<group>";
+		};
+		DB155E83150F989800ED165F /* ScorecardSegment */ = {
+			isa = PBXGroup;
+			children = (
+				DB155E9F1510926A00ED165F /* SegmentProtocol.h */,
+				DB155E84150F997D00ED165F /* ScorecardSegment.h */,
+				DB155E85150F997D00ED165F /* ScorecardSegment.m */,
+				DB155E8A150F9E3200ED165F /* Scorecard Sections */,
+				DB155E8E150F9ED000ED165F /* Scorecard Cell Data */,
+			);
+			name = ScorecardSegment;
+			sourceTree = "<group>";
+		};
+		DB155E8A150F9E3200ED165F /* Scorecard Sections */ = {
+			isa = PBXGroup;
+			children = (
+				DB155E9E15108A7C00ED165F /* SectionProtocol.h */,
+				DB155EA61510B3B200ED165F /* Inning Sections */,
+			);
+			name = "Scorecard Sections";
+			sourceTree = "<group>";
+		};
+		DB155E8E150F9ED000ED165F /* Scorecard Cell Data */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A6CDB150E5F1500189358 /* Prototype Cells */,
+				DB155E98150FBA7100ED165F /* ScoreboardCellData.h */,
+				DB155E99150FBA7100ED165F /* ScoreboardCellData.m */,
+			);
+			name = "Scorecard Cell Data";
+			sourceTree = "<group>";
+		};
+		DB155EA61510B3B200ED165F /* Inning Sections */ = {
+			isa = PBXGroup;
+			children = (
+				DB155EA71510B4D300ED165F /* SummaryInningScorecardSection.h */,
+				DB155EA81510B4D300ED165F /* SummaryInningScorecardSection.m */,
+				DB155EA015109C1200ED165F /* BowlingInningScorecardSection.h */,
+				DB155EA115109C1200ED165F /* BowlingInningScorecardSection.m */,
+				DB155E8B150F9EC900ED165F /* BattingInningScorecardSection.h */,
+				DB155E8C150F9EC900ED165F /* BattingInningScorecardSection.m */,
+			);
+			name = "Inning Sections";
+			sourceTree = "<group>";
+		};
+		DB197B491518B29F0063EE68 /* Tournament */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF857B151CC9BB0091ACB3 /* Creation */,
+				B6BF857C151CC9CF0091ACB3 /* TournamentCentral */,
+			);
+			name = Tournament;
+			sourceTree = "<group>";
+		};
+		DB1A6CD9150E5F0900189358 /* Detailed Scorecard */ = {
+			isa = PBXGroup;
+			children = (
+				DBC4109614F67915002E3A64 /* DetailedScorecardTableViewController.h */,
+				DBC4109714F67915002E3A64 /* DetailedScorecardTableViewController.m */,
+				DB155E83150F989800ED165F /* ScorecardSegment */,
+			);
+			name = "Detailed Scorecard";
+			sourceTree = "<group>";
+		};
+		DB1A6CDB150E5F1500189358 /* Prototype Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DB155EAD1510DBF400ED165F /* ScoreboardCellProtocol.h */,
+				DB155EAA1510BA7300ED165F /* InningSummaryCell.h */,
+				DB155EAB1510BA7300ED165F /* InningSummaryCell.m */,
+				DBE3BB56150F3DB10005C9A7 /* ScoreboardBowlerCell.h */,
+				DBE3BB57150F3DB10005C9A7 /* ScoreboardBowlerCell.m */,
+				DBE3BB53150F34500005C9A7 /* ScoreboardBatsmanCell.h */,
+				DBE3BB54150F34500005C9A7 /* ScoreboardBatsmanCell.m */,
+			);
+			name = "Prototype Cells";
+			sourceTree = "<group>";
+		};
+		DB2AD1491519D5DD00335CEF /* TableSection */ = {
+			isa = PBXGroup;
+			children = (
+				DB2AD14A1519D5F500335CEF /* TableViewSection.h */,
+				DB2AD14B1519D5F500335CEF /* TableViewSection.m */,
+				DB2AD14D1519D67200335CEF /* TableViewSectionCellData.h */,
+				DB2AD14E1519D67200335CEF /* TableViewSectionCellData.m */,
+				DB2AD1561519E3D300335CEF /* CellDataTypes */,
+			);
+			name = TableSection;
+			sourceTree = "<group>";
+		};
+		DB2AD1561519E3D300335CEF /* CellDataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				DB2AD1531519E3CE00335CEF /* TitleSectionCellData.h */,
+				DB2AD1541519E3CE00335CEF /* TitleSectionCellData.m */,
+			);
+			name = CellDataTypes;
+			sourceTree = "<group>";
+		};
+		DB2AD163151B5A3D00335CEF /* Tournament */ = {
+			isa = PBXGroup;
+			children = (
+				DB2AD164151B5A5000335CEF /* Tournament+Factory.h */,
+				DB2AD165151B5A5000335CEF /* Tournament+Factory.m */,
+				B6CBA53B151C759F0065E5D3 /* Teams */,
+				DB2AD167151B605100335CEF /* Rounds */,
+			);
+			name = Tournament;
+			sourceTree = "<group>";
+		};
+		DB2AD167151B605100335CEF /* Rounds */ = {
+			isa = PBXGroup;
+			children = (
+				DB2AD17A151B61AE00335CEF /* TournamentRound+Factory.h */,
+				DB2AD17B151B61AE00335CEF /* TournamentRound+Factory.m */,
+				DB085EE9151B84BC0068A283 /* Matches */,
+				DB085EA9151B77300068A283 /* Groups */,
+				DB085E8A151B6C6D0068A283 /* Seeds */,
+			);
+			name = Rounds;
+			sourceTree = "<group>";
+		};
+		DB76E03C15204A720024315E /* MatchSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				DB76E03E15204AA00024315E /* MatchSimulator.h */,
+				DB76E03F15204AA00024315E /* MatchSimulator.m */,
+			);
+			name = MatchSimulator;
+			sourceTree = "<group>";
+		};
+		DB76E0411520ACB10024315E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DB76E0421520ACD50024315E /* StandingsTableViewCell.h */,
+				DB76E0431520ACD50024315E /* StandingsTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		DBB72244151244AA0066F60B /* MatchMVC */ = {
+			isa = PBXGroup;
+			children = (
+				DBC4107B14F54C46002E3A64 /* MatchViewController.h */,
+				DBC4107C14F54C46002E3A64 /* MatchViewController.m */,
+				DBD8FD9114FE1A200055BCCE /* DieEngine.h */,
+				DBD8FD9214FE1A200055BCCE /* DieEngine.m */,
+				DBC4108314F54D1B002E3A64 /* MatchEngine.h */,
+				DBC4108414F54D1B002E3A64 /* MatchEngine.m */,
+				DBCF776B14FD2AA200C99928 /* MatchDatabase.h */,
+				DBCF776C14FD2AA200C99928 /* MatchDatabase.m */,
+				DB76E03C15204A720024315E /* MatchSimulator */,
+				B622E0E9150B705C00AF5B59 /* Scoreboard */,
+				B6613ABC150AB35900E2AE58 /* Commentary Bar */,
+				DB1A6CD9150E5F0900189358 /* Detailed Scorecard */,
+			);
+			name = MatchMVC;
+			sourceTree = "<group>";
+		};
+		DBB72246151244F30066F60B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DBB72247151245460066F60B /* MainViewController.h */,
+				DBB72248151245460066F60B /* MainViewController.m */,
+				DBB7224A151245C30066F60B /* CreateMatchModal */,
+				B6DCCBFC1513997700613844 /* SelectMatchModal */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DBB7224A151245C30066F60B /* CreateMatchModal */ = {
+			isa = PBXGroup;
+			children = (
+				DBB7224B151245EB0066F60B /* CreateMatchModalViewController.h */,
+				DBB7224C151245EB0066F60B /* CreateMatchModalViewController.m */,
+				B69BF07D1513A55A004AD180 /* TeamSelectionTableViewController.h */,
+				B69BF07E1513A55A004AD180 /* TeamSelectionTableViewController.m */,
+			);
+			name = CreateMatchModal;
+			sourceTree = "<group>";
+		};
+		DBC1DBD11504D05600D4A430 /* Wicket */ = {
+			isa = PBXGroup;
+			children = (
+				DBC1DBCE1504D04D00D4A430 /* Wicket+Factory.h */,
+				DBC1DBCF1504D04D00D4A430 /* Wicket+Factory.m */,
+			);
+			name = Wicket;
+			sourceTree = "<group>";
+		};
+		DBC1DC8115050ADF00D4A430 /* Bowler */ = {
+			isa = PBXGroup;
+			children = (
+				DBC1DC7E15050ADA00D4A430 /* Bowler+Factory.h */,
+				DBC1DC7F15050ADA00D4A430 /* Bowler+Factory.m */,
+			);
+			name = Bowler;
+			sourceTree = "<group>";
+		};
+		DBC4105714F54C46002E3A64 = {
+			isa = PBXGroup;
+			children = (
+				DBC4106C14F54C46002E3A64 /* ChanceCricket */,
+				DBC4106514F54C46002E3A64 /* Frameworks */,
+				DBC4106314F54C46002E3A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC4106314F54C46002E3A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC4106214F54C46002E3A64 /* ChanceCricket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC4106514F54C46002E3A64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C340D814FB8B7B0083EF7D /* CoreData.framework */,
+				DBC4106614F54C46002E3A64 /* UIKit.framework */,
+				DBC4106814F54C46002E3A64 /* Foundation.framework */,
+				DBC4106A14F54C46002E3A64 /* CoreGraphics.framework */,
+				DB197B3815187BEF0063EE68 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBC4106C14F54C46002E3A64 /* ChanceCricket */ = {
+			isa = PBXGroup;
+			children = (
+				B6C340B314FB84E70083EF7D /* Core Data Model */,
+				DBC4107814F54C46002E3A64 /* iPhone.storyboard */,
+				DBC4107514F54C46002E3A64 /* ChanceCricketAppDelegate.h */,
+				DBC4107614F54C46002E3A64 /* ChanceCricketAppDelegate.m */,
+				DB197B491518B29F0063EE68 /* Tournament */,
+				DBB72246151244F30066F60B /* Main */,
+				DBB72244151244AA0066F60B /* MatchMVC */,
+				DBC4106D14F54C46002E3A64 /* Supporting Files */,
+			);
+			path = ChanceCricket;
+			sourceTree = "<group>";
+		};
+		DBC4106D14F54C46002E3A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6FF3E6B15334E3C000D1635 /* ColorSpaceUtilities.h */,
+				B6FF3E6915334BCF000D1635 /* UIColor+ColorWithHex.h */,
+				B6FF3E6A15334BCF000D1635 /* UIColor+ColorWithHex.m */,
+				DB2AD1491519D5DD00335CEF /* TableSection */,
+				DB197B1E15175CA00063EE68 /* Settings.h */,
+				DB197B1F15175CA00063EE68 /* Settings.m */,
+				DBC1DBDA1504D7EA00D4A430 /* CoreDataTableViewController.h */,
+				DBC1DBD91504D7EA00D4A430 /* CoreDataTableViewController.m */,
+				DBC4106E14F54C46002E3A64 /* ChanceCricket-Info.plist */,
+				DB98F7DF1510EB120023E912 /* data_teams.plist */,
+				DB197B22151763680063EE68 /* data_players.plist */,
+				DB197B2715177D350063EE68 /* data_tournaments.plist */,
+				DBC4106F14F54C46002E3A64 /* InfoPlist.strings */,
+				DBC4107214F54C46002E3A64 /* main.m */,
+				DBC4107414F54C46002E3A64 /* ChanceCricket-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBD5F8D91504B82200F157EC /* Batsman */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5F8D61504B81E00F157EC /* Batsman+Factory.h */,
+				DBD5F8D71504B81E00F157EC /* Batsman+Factory.m */,
+			);
+			name = Batsman;
+			sourceTree = "<group>";
+		};
+		DBD8FDB414FE301F0055BCCE /* Auto Generated */ = {
+			isa = PBXGroup;
+			children = (
+				B6FF3E6C153355FA000D1635 /* Team.h */,
+				B6FF3E6D153355FA000D1635 /* Team.m */,
+				DB1544C615234CA500684BCE /* Tournament.h */,
+				DB1544C715234CA500684BCE /* Tournament.m */,
+				DB1544C315234AE600684BCE /* TournamentMatch.h */,
+				DB1544C415234AE600684BCE /* TournamentMatch.m */,
+				DB1544BD152342DC00684BCE /* Match.h */,
+				DB1544BE152342DC00684BCE /* Match.m */,
+				DB1544B915233D1300684BCE /* Inning.h */,
+				DB1544BA15233D1300684BCE /* Inning.m */,
+				DBDB335E1521E24D00184112 /* TournamentGroup.h */,
+				DBDB335F1521E24D00184112 /* TournamentGroup.m */,
+				DBDB335B15219C0F00184112 /* TournamentRound.h */,
+				DBDB335C15219C0F00184112 /* TournamentRound.m */,
+				B6331360151D0DF2009DD9C3 /* Seed.h */,
+				B6331361151D0DF2009DD9C3 /* Seed.m */,
+				B6CBA535151C75580065E5D3 /* TournamentTeam.h */,
+				B6CBA536151C75580065E5D3 /* TournamentTeam.m */,
+				DB085EBF151B7FD40068A283 /* Player.h */,
+				DB085EC0151B7FD40068A283 /* Player.m */,
+				DB085E87151B6BBF0068A283 /* Wicket.h */,
+				DB085E88151B6BBF0068A283 /* Wicket.m */,
+				DB085E84151B6BBF0068A283 /* MatchSettings.h */,
+				DB085E85151B6BBF0068A283 /* MatchSettings.m */,
+				DB085E81151B6BBF0068A283 /* Over.h */,
+				DB085E82151B6BBF0068A283 /* Over.m */,
+				DB085E7B151B6BBF0068A283 /* Batsman.h */,
+				DB085E7C151B6BBF0068A283 /* Batsman.m */,
+				DB085E78151B6BBF0068A283 /* Bowler.h */,
+				DB085E79151B6BBF0068A283 /* Bowler.m */,
+				DB085E6C151B6BBE0068A283 /* Delivery.h */,
+				DB085E6D151B6BBE0068A283 /* Delivery.m */,
+				DBE3BBBE150F74870005C9A7 /* MatchSettingsT20.h */,
+				DBE3BBBF150F74870005C9A7 /* MatchSettingsT20.m */,
+				DBD8FE1914FE3BE30055BCCE /* MatchSettingsDummy.h */,
+				DBD8FE1A14FE3BE30055BCCE /* MatchSettingsDummy.m */,
+			);
+			name = "Auto Generated";
+			sourceTree = "<group>";
+		};
+		DBD8FDC714FE30B10055BCCE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DBD8FDC814FE30D30055BCCE /* MatchSettingsT20+Factory.h */,
+				DBD8FDC914FE30D30055BCCE /* MatchSettingsT20+Factory.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC4106114F54C46002E3A64 /* ChanceCricket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC4108014F54C46002E3A64 /* Build configuration list for PBXNativeTarget "ChanceCricket" */;
+			buildPhases = (
+				DBC4105E14F54C46002E3A64 /* Sources */,
+				DBC4105F14F54C46002E3A64 /* Frameworks */,
+				DBC4106014F54C46002E3A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChanceCricket;
+			productName = ChanceCricket;
+			productReference = DBC4106214F54C46002E3A64 /* ChanceCricket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC4105914F54C46002E3A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = DBC4105C14F54C46002E3A64 /* Build configuration list for PBXProject "ChanceCricket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBC4105714F54C46002E3A64;
+			productRefGroup = DBC4106314F54C46002E3A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC4106114F54C46002E3A64 /* ChanceCricket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC4106014F54C46002E3A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC4107114F54C46002E3A64 /* InfoPlist.strings in Resources */,
+				DBC4107A14F54C46002E3A64 /* iPhone.storyboard in Resources */,
+				B622E0F8150B9C4C00AF5B59 /* ScoreboardTableViewCell.xib in Resources */,
+				DB98F7E01510EB120023E912 /* data_teams.plist in Resources */,
+				DB197B23151763690063EE68 /* data_players.plist in Resources */,
+				DB197B2815177D350063EE68 /* data_tournaments.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC4105E14F54C46002E3A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC4107314F54C46002E3A64 /* main.m in Sources */,
+				DBC4107714F54C46002E3A64 /* ChanceCricketAppDelegate.m in Sources */,
+				DBC4107D14F54C46002E3A64 /* MatchViewController.m in Sources */,
+				DBC4108514F54D1B002E3A64 /* MatchEngine.m in Sources */,
+				DBC4109814F67915002E3A64 /* DetailedScorecardTableViewController.m in Sources */,
+				B6C340A614FB7AB20083EF7D /* ChanceCricketDatabase.xcdatamodeld in Sources */,
+				B6C340E314FB8D770083EF7D /* Delivery+Factory.m in Sources */,
+				B6C340E614FB99DA0083EF7D /* Over+Factory.m in Sources */,
+				B6C3410D14FB9DF20083EF7D /* Inning+Factory.m in Sources */,
+				B6C3411014FB9F280083EF7D /* Match+Factory.m in Sources */,
+				DBCF776D14FD2AA200C99928 /* MatchDatabase.m in Sources */,
+				DBD8FD9314FE1A200055BCCE /* DieEngine.m in Sources */,
+				DBD8FDCA14FE30D30055BCCE /* MatchSettingsT20+Factory.m in Sources */,
+				DBD8FE1B14FE3BE30055BCCE /* MatchSettingsDummy.m in Sources */,
+				DBD8FE3314FE44730055BCCE /* Match+Summary.m in Sources */,
+				DB954EE914FE5A9D0038DC49 /* Match+Validation.m in Sources */,
+				B606C0A9150206DA00051A15 /* Team+Factory.m in Sources */,
+				B606C0AC1502070B00051A15 /* Player+Factory.m in Sources */,
+				DBD5F8D81504B81E00F157EC /* Batsman+Factory.m in Sources */,
+				DBC1DBD01504D04D00D4A430 /* Wicket+Factory.m in Sources */,
+				DBC1DBDB1504D7EA00D4A430 /* CoreDataTableViewController.m in Sources */,
+				DBC1DC8015050ADB00D4A430 /* Bowler+Factory.m in Sources */,
+				B634CC27150AAEEB000D0C37 /* CommentaryViewController.m in Sources */,
+				B6613ABB150AB35400E2AE58 /* CommentaryView.m in Sources */,
+				B622E0F5150B997500AF5B59 /* ScoreboardTableViewController.m in Sources */,
+				B622E0FB150BB95200AF5B59 /* HeadingTwoLinesTableViewCell.m in Sources */,
+				B622E0FE150BC30C00AF5B59 /* LastWicketTableViewCell.m in Sources */,
+				DBE3BB55150F34500005C9A7 /* ScoreboardBatsmanCell.m in Sources */,
+				DBE3BB58150F3DB10005C9A7 /* ScoreboardBowlerCell.m in Sources */,
+				DBE3BBC0150F74870005C9A7 /* MatchSettingsT20.m in Sources */,
+				DB155E86150F997D00ED165F /* ScorecardSegment.m in Sources */,
+				DB155E8D150F9EC900ED165F /* BattingInningScorecardSection.m in Sources */,
+				DB155E9A150FBA7100ED165F /* ScoreboardCellData.m in Sources */,
+				DB155EA215109C1300ED165F /* BowlingInningScorecardSection.m in Sources */,
+				DB155EA91510B4D300ED165F /* SummaryInningScorecardSection.m in Sources */,
+				DB155EAC1510BA7300ED165F /* InningSummaryCell.m in Sources */,
+				DBB72249151245460066F60B /* MainViewController.m in Sources */,
+				DBB7224D151245EB0066F60B /* CreateMatchModalViewController.m in Sources */,
+				B69BF07F1513A55A004AD180 /* TeamSelectionTableViewController.m in Sources */,
+				B69BF0821513A6DF004AD180 /* MatchSelectionTableViewController.m in Sources */,
+				DB197B2015175CA00063EE68 /* Settings.m in Sources */,
+				DB197B4C1518B2C10063EE68 /* CreateTournamentTableViewController.m in Sources */,
+				DB2AD14C1519D5F500335CEF /* TableViewSection.m in Sources */,
+				DB2AD14F1519D67200335CEF /* TableViewSectionCellData.m in Sources */,
+				DB2AD1521519DF0B00335CEF /* AddTeamsCellData.m in Sources */,
+				DB2AD1551519E3CE00335CEF /* TitleSectionCellData.m in Sources */,
+				DB2AD166151B5A5000335CEF /* Tournament+Factory.m in Sources */,
+				DB2AD17C151B61AE00335CEF /* TournamentRound+Factory.m in Sources */,
+				DB085E6E151B6BBE0068A283 /* Delivery.m in Sources */,
+				DB085E7A151B6BBF0068A283 /* Bowler.m in Sources */,
+				DB085E7D151B6BBF0068A283 /* Batsman.m in Sources */,
+				DB085E83151B6BBF0068A283 /* Over.m in Sources */,
+				DB085E86151B6BBF0068A283 /* MatchSettings.m in Sources */,
+				DB085E89151B6BBF0068A283 /* Wicket.m in Sources */,
+				DB085E8D151B6C890068A283 /* Seed+Factory.m in Sources */,
+				DB085EAC151B774F0068A283 /* TournamentGroup+Factory.m in Sources */,
+				DB085EC1151B7FD40068A283 /* Player.m in Sources */,
+				DB085EEC151B84CD0068A283 /* TournamentMatch+Factory.m in Sources */,
+				B6CBA537151C75580065E5D3 /* TournamentTeam.m in Sources */,
+				B6CBA53E151C75B10065E5D3 /* TournamentTeam+Factory.m in Sources */,
+				B6BF857F151CCA300091ACB3 /* TournamentCentralViewController.m in Sources */,
+				B6BF8582151CCA660091ACB3 /* TournamentCentralModel.m in Sources */,
+				B6BF8586151CDB040091ACB3 /* TournamentMatchCentreViewController.m in Sources */,
+				B6BF858C151CDB780091ACB3 /* TournamentFixturesViewController.m in Sources */,
+				B6BF858F151CDBB60091ACB3 /* TournamentStandingsViewController.m in Sources */,
+				B6BF8592151CDBD40091ACB3 /* TournamentStatisticsViewController.m in Sources */,
+				B6331362151D0DF2009DD9C3 /* Seed.m in Sources */,
+				B67D4EA2151DE72F0049C712 /* GotoMatchTargetAction.m in Sources */,
+				B67D4EA5151DEC630049C712 /* SimulateMatchTargetAction.m in Sources */,
+				B67D4EA8151DECC60049C712 /* GotoNextScheduledMatchTargetAction.m in Sources */,
+				B67D4EAB151DED010049C712 /* GotoNextRoundTargetAction.m in Sources */,
+				DB76E04015204AA00024315E /* MatchSimulator.m in Sources */,
+				DB76E0441520ACD50024315E /* StandingsTableViewCell.m in Sources */,
+				DBDB335D15219C0F00184112 /* TournamentRound.m in Sources */,
+				DBDB33601521E24D00184112 /* TournamentGroup.m in Sources */,
+				DB1544BB15233D1300684BCE /* Inning.m in Sources */,
+				DB1544BF152342DC00684BCE /* Match.m in Sources */,
+				DB1544C515234AE600684BCE /* TournamentMatch.m in Sources */,
+				DB1544C815234CA500684BCE /* Tournament.m in Sources */,
+				B64099D71525E7DD00631B14 /* CommentaryItemSequence.m in Sources */,
+				B64099DA1525E81D00631B14 /* CommentaryItem.m in Sources */,
+				B66E8774152654F200BE6F35 /* RunCommentaryItem.m in Sources */,
+				B66E87771526554500BE6F35 /* BoundaryCommentaryItem.m in Sources */,
+				B66E877A1526558700BE6F35 /* WicketCommentaryItem.m in Sources */,
+				B66E877D152655DB00BE6F35 /* DotCommentaryItem.m in Sources */,
+				B66E87801526560A00BE6F35 /* ChanceEventCommentaryItem.m in Sources */,
+				B659E38415274E2D009380CE /* WicketCommentarySequence.m in Sources */,
+				B659E38715275304009380CE /* RunCommentarySequence.m in Sources */,
+				B659E38A15275557009380CE /* DotCommentarySequence.m in Sources */,
+				B659E38D15275623009380CE /* ChanceEventCommentarySequence.m in Sources */,
+				B6FF3E6E153355FA000D1635 /* Team.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBC4106F14F54C46002E3A64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC4107014F54C46002E3A64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBC4107814F54C46002E3A64 /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC4107914F54C46002E3A64 /* en */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB0E2CE21524A7160003D3E4 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"New_Setting[sdk=iphoneos5.1]" = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		DB0E2CE31524A7160003D3E4 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_GROUP = Entitlements.plist;
+				ALTERNATE_OWNER = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mario Piepenbrink (2QEKFCFVHU)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChanceCricket/ChanceCricket-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ChanceCricket/ChanceCricket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "42D3F104-57A4-4B10-B81A-3DD958F757B5";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		DBC4107E14F54C46002E3A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"New_Setting[sdk=iphoneos5.1]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBC4107F14F54C46002E3A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"New_Setting[sdk=iphoneos5.1]" = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC4108114F54C46002E3A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_GROUP = Entitlements.plist;
+				ALTERNATE_OWNER = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mario Piepenbrink (2QEKFCFVHU)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChanceCricket/ChanceCricket-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ChanceCricket/ChanceCricket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "42D3F104-57A4-4B10-B81A-3DD958F757B5";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBC4108214F54C46002E3A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_GROUP = Entitlements.plist;
+				ALTERNATE_OWNER = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mario Piepenbrink (2QEKFCFVHU)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChanceCricket/ChanceCricket-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ChanceCricket/ChanceCricket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "42D3F104-57A4-4B10-B81A-3DD958F757B5";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC4105C14F54C46002E3A64 /* Build configuration list for PBXProject "ChanceCricket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC4107E14F54C46002E3A64 /* Debug */,
+				DBC4107F14F54C46002E3A64 /* Release */,
+				DB0E2CE21524A7160003D3E4 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC4108014F54C46002E3A64 /* Build configuration list for PBXNativeTarget "ChanceCricket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC4108114F54C46002E3A64 /* Debug */,
+				DBC4108214F54C46002E3A64 /* Release */,
+				DB0E2CE31524A7160003D3E4 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6C340A414FB7AB20083EF7D /* ChanceCricketDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6C340A514FB7AB20083EF7D /* ChanceCricketDatabase.xcdatamodel */,
+			);
+			currentVersion = B6C340A514FB7AB20083EF7D /* ChanceCricketDatabase.xcdatamodel */;
+			path = ChanceCricketDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBC4105914F54C46002E3A64 /* Project object */;
+}
